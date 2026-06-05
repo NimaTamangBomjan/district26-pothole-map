@@ -22,28 +22,17 @@ permissions:
 jobs:
   refresh-311:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/betanyc/d26-gi-web-map:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       # 1. Pull down the repository so refresh_311.R is available
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Install R, pinned to version used locally
-      - name: Setup R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: "4.6.0"
-
-      # 3. Install R packages. r-lib/actions handles the binary install
-      # of sf/arrow on Linux and caches results across runs
-      - name: Install R packages
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            sf
-            arrow
-            socratadata
-
-      # 4. Pull d26_zctas.parquet from the data-v2 Release
+      # 2. Pull d26_zctas.parquet from the data-v2 Release
       # the runner's gh CLI is pre-authenticated against GITHUB_TOKEN
       - name: Download d26_zctas.parquet from data-v2 release
         env:
@@ -55,18 +44,19 @@ jobs:
             --pattern d26_zctas.parquet \
             --dir data/prepared/
 
-      # 5. Run the refresh script. Writes data/prepared/flooding_311.geojson
+      # 3. Run the refresh script. Writes data/prepared/flooding_311.geojson
       - name: Run refresh script
         env:
           soc_api_key_id: ${{ secrets.SOC_API_KEY_ID }}
           soc_api_key_secret: ${{ secrets.SOC_API_KEY_SECRET }}
         run: Rscript scripts/refresh_311.R
 
-      # 6. Stage the GeoJSON; if it differs from the committed version,
+      # 4. Stage the GeoJSON; if it differs from the committed version,
       # commit and push. Otherwise exit cleanly without an empty commit.
       - name: Commit and push if changed
         id: commit
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
