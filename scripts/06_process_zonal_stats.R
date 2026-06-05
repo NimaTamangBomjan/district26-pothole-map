@@ -17,11 +17,13 @@ m <- c(3,3,2,
 rclmat <- matrix(m, ncol = 3, byrow = TRUE)
 land_cover_rcl <- classify(land_cover, rclmat, right = NA)
 
+land_cover_rcl_masked <- terra::crop(land_cover_rcl, d26_zctas, mask = TRUE)
+
 cls <- data.frame(id = 1:2, cover = c("Tree Canopy", "Permeable Surface"))
-levels(land_cover_rcl) <- cls
+levels(land_cover_rcl_masked) <- cls
 
 # Get area of each NTA covered by each LC class
-land_cover_fracs <- exact_extract(land_cover_rcl, d26_zctas, function(df){
+land_cover_fracs <- exact_extract(land_cover_rcl_masked, d26_zctas, function(df){
   df |> 
     mutate(frac_total = coverage_fraction / sum(coverage_fraction)) |> 
     group_by(ZCTA5, value) |> 
@@ -39,7 +41,7 @@ d26_zctas <- d26_zctas |>
               select(ZCTA5, pct_permeable_surface))
 
 # Get pct area of D26 covered by each class
-land_cover_fracs_d26 <- exact_extract(land_cover_rcl, d26, function(df) {
+land_cover_fracs_d26 <- exact_extract(land_cover_rcl_masked, d26, function(df) {
   df |> 
     mutate(frac_total = coverage_fraction / sum(coverage_fraction)) |> 
     group_by(value) |> 
@@ -84,7 +86,7 @@ write.csv(
 ## Write single-category rasters for visualization 
 
 # Tree canopy
-subst(land_cover_rcl, 
+subst(land_cover_rcl_masked, 
       from = 1, 
       to = 1, 
       others = NA,
@@ -102,7 +104,7 @@ subst(land_cover_rcl,
                "OVERVIEW_RESAMPLING=NEAREST"))
 
 # Permeable surfaces
-subst(land_cover_rcl, 
+subst(land_cover_rcl_masked, 
       from = 2, 
       to = 2, 
       others = NA,
