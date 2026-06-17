@@ -17,7 +17,7 @@ flooding_311 <- soc_read(
       "within_polygon(location, '",
       wkt_d26_zctas,
       "') AND created_date >= '2022-01-01T00:00:00' AND
-      (descriptor = 'Flooding on Highway' OR descriptor = 'Flooding on Street' OR descriptor = 'Catch Basin Clogged' OR descriptor = 'Culvert' OR descriptor = 'Manhole Overflow' OR descriptor = 'Backup' OR descriptor = 'Ponding'  )
+      (descriptor = 'Flooding on Highway' OR descriptor = 'Highway Flooding (SH)' OR descriptor = 'Flooding on Street' OR descriptor = 'Catch Basin Clogged' OR descriptor = 'Catch Basin Clogged/Flooding (Use Comments) (SC)' OR descriptor = 'Culvert' OR descriptor = 'Culvert Blocked/Needs Cleaning (SE)' OR descriptor = 'Manhole Overflow' OR descriptor = 'Manhole Overflow (Use Comments) (SA1)' OR descriptor = 'Backup' OR descriptor = 'Sewer Backup (Use Comments) (SA)' OR descriptor = 'Ponding'  OR descriptor = 'Street Flooding (SJ)' OR descriptor = 'RAIN GARDEN FLOODING (SRGFLD)')
       "
     )
   ),

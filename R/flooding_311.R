@@ -8,7 +8,7 @@ get_311 <- function(path) {
 # Adapted helpers from R/validate.R
 validate_311 <- function(df_311) {
   assert_crs(df_311, 2263)
-  assert_row_count(df_311, min = 10, max = 5000)
+  assert_row_count(df_311, min = 3000, max = 30000)
   assert_no_na(df_311, "descriptor")
   assert_valid_geom(df_311)
   
