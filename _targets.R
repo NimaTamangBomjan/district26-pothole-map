@@ -174,8 +174,16 @@ list(
   # Copy COG TIFFs to data/processed for deployment
   tar_target(tree_canopy_cog_output_path,
              copy_file(tree_canopy_cog_path,
-                       "data/processed/tree_canopy.tif")),
+                       "data/processed/tree_canopy.tif"),
+             format = "file"),
   tar_target(permeable_surface_cog_output_path,
              copy_file(permeable_surface_cog_path,
-                       "data/processed/permeable_surface.tif"))
+                       "data/processed/permeable_surface.tif"),
+             format = "file"),
+  
+  # Copy 311 geojson to data/processed for deployment
+  tar_target(flooding_311_output_path,
+             copy_file(flooding_311_path,
+                       "data/processed/flooding_311.geojson"),
+             format = "file")
 )
