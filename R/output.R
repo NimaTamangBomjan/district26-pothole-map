@@ -18,8 +18,23 @@ write_pmtiles <- function(data, path, layer_name = NULL) {
     data,
     path,
     layer_name = layer_name,
-    min_zoom = 9,
-    max_zoom = 20
+    min_zoom =11,
+    max_zoom = 20,
+  )
+  path
+}
+
+# PMTiles writer for SWF layers
+# Disables simplification & feature thinning
+write_pmtiles_2 <- function(data, path, layer_name = NULL) {
+  freestiler::freestile(
+    data,
+    path,
+    layer_name = layer_name,
+    min_zoom =11,
+    max_zoom = 20,
+    drop_rate = NULL,
+    simplification = FALSE
   )
   path
 }
@@ -68,11 +83,17 @@ write_gi_display_pmtiles <- function(gi_all_assets, path) {
 
 # Stormwater flooding PMTiles
 write_swf_limited_pmtiles <- function(swf_limited, path) {
-  write_pmtiles(swf_limited |> select(Flooding_C), path)
+  write_pmtiles_2(st_sf(
+    swf_cat = "limited",
+    geometry = st_union(swf_limited)
+  ), path)
 }
 
 write_swf_moderate_pmtiles <- function(swf_moderate, path) {
-  write_pmtiles(swf_moderate |> select(Flooding_C), path)
+  write_pmtiles_2(st_sf(
+    swf_cat = "moderate",
+    geometry = st_union(swf_moderate)
+  ), path)
 }
 
 # NFHL PMTiles (the intersected geometries already carry flood_plane)
