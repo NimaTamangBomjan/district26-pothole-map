@@ -24,7 +24,7 @@ write_pmtiles <- function(data, path, layer_name = NULL) {
   path
 }
 
-# PMTiles writer for SWF layers
+# PMTiles writer for SWF, sewer area layers
 # Disables simplification & feature thinning
 write_pmtiles_2 <- function(data, path, layer_name = NULL) {
   freestiler::freestile(
@@ -65,7 +65,7 @@ write_cso_outfalls_pmtiles <- function(cso_outfall, path) {
 }
 
 write_sewer_areas_pmtiles <- function(sewer_areas, path) {
-  write_pmtiles(sewer_areas |> select(COMB_OR_SE), path)
+  write_pmtiles_2(sewer_areas |> select(COMB_OR_SE), path)
 }
 
 # Catch basins PMTiles
