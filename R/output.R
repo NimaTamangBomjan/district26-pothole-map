@@ -65,7 +65,11 @@ write_cso_outfalls_pmtiles <- function(cso_outfall, path) {
 }
 
 write_sewer_areas_pmtiles <- function(sewer_areas, path) {
-  write_pmtiles_2(sewer_areas |> select(COMB_OR_SE), path)
+  write_pmtiles_2(sewer_areas |> 
+                    select(COMB_OR_SE) |>
+                    # Workaround for a tippecanoe bug that mis-winds
+                    # multipolygon parts during tile clipping
+                    st_cast("POLYGON"), path)
 }
 
 # Catch basins PMTiles
