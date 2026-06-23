@@ -1,0 +1,37 @@
+/**
+ * The toggleable map layers, in the Figma grid order (row-wise). 
+ * This drives BOTH the toggle UI (label + indicator)
+ * and the MapLibre source/layer creation 
+ */
+export type Indicator =
+  | { type: 'swatch'; colorVar: string }
+  | { type: 'icon'; code: string };
+
+export interface LayerDef {
+  id: string;
+  label: string;
+  indicator: Indicator;
+  ranked: boolean;
+  rankColumn: string | null;
+  delivery: 'pmtiles' | 'cog' | 'geojson';
+  file: string;
+  sourceLayer?: string;
+  geometry: 'point' | 'polygon' | 'raster';
+  cogValue?: number;
+  /** Polygon fill opacity override (default 0.5). */
+  fillOpacity?: number;
+}
+
+export const LAYERS: LayerDef[] = [
+  { id: 'gi', label: 'Green Infrastructure', indicator: { type: 'icon', code: 'GI' }, ranked: true, rankColumn: 'rank_n_gi_sqmi', delivery: 'pmtiles', file: 'gi_all_layers.pmtiles', sourceLayer: 'gi_all_layers', geometry: 'point' },
+  { id: 'flooding_311', label: '311 Service Requests (Flooding-Related)', indicator: { type: 'icon', code: '311' }, ranked: true, rankColumn: 'rank_n_flooding_311_p10k', delivery: 'geojson', file: 'flooding_311.geojson', geometry: 'point' },
+  { id: 'catch_basins', label: 'Catch Basins', indicator: { type: 'icon', code: 'CB' }, ranked: true, rankColumn: 'rank_n_cb_sqmi', delivery: 'pmtiles', file: 'catch_basins.pmtiles', sourceLayer: 'catch_basins', geometry: 'point' },
+  { id: 'cso', label: 'Combined Sewer Overflow Outfalls', indicator: { type: 'icon', code: 'CSO' }, ranked: false, rankColumn: null, delivery: 'pmtiles', file: 'cso_outfalls.pmtiles', sourceLayer: 'cso_outfalls', geometry: 'point' },
+  { id: 'fema_100', label: '100-Year Flood Plane', indicator: { type: 'swatch', colorVar: '--color-layer-100-year' }, ranked: true, rankColumn: 'rank_pct_100_year', delivery: 'pmtiles', file: 'nfhl_100yr.pmtiles', sourceLayer: 'nfhl_100yr', geometry: 'polygon' },
+  { id: 'fema_500', label: '500-Year Flood Plane', indicator: { type: 'swatch', colorVar: '--color-layer-500-year' }, ranked: true, rankColumn: 'rank_pct_500_year', delivery: 'pmtiles', file: 'nfhl_500yr.pmtiles', sourceLayer: 'nfhl_500yr', geometry: 'polygon' },
+  { id: 'swf_limited', label: 'Stormwater Flooding (Limited)', indicator: { type: 'swatch', colorVar: '--color-layer-limited-flood' }, ranked: true, rankColumn: 'rank_limited_swf_pct', delivery: 'pmtiles', file: 'swf_limited.pmtiles', sourceLayer: 'swf_limited', geometry: 'polygon', fillOpacity: 0.85 },
+  { id: 'swf_moderate', label: 'Stormwater Flooding (Moderate)', indicator: { type: 'swatch', colorVar: '--color-layer-moderate-flood' }, ranked: true, rankColumn: 'rank_moderate_swf_pct', delivery: 'pmtiles', file: 'swf_moderate.pmtiles', sourceLayer: 'swf_moderate', geometry: 'polygon', fillOpacity: 0.65 },
+  { id: 'permeable', label: 'Permeable Surfaces', indicator: { type: 'swatch', colorVar: '--color-layer-permeable-surfaces' }, ranked: true, rankColumn: 'rank_pct_permeable_surface', delivery: 'cog', file: 'permeable_surface.tif', geometry: 'raster', cogValue: 2 },
+  { id: 'tree_canopy', label: 'Tree Canopy', indicator: { type: 'swatch', colorVar: '--color-layer-tree-canopy' }, ranked: true, rankColumn: 'rank_pct_tree_canopy', delivery: 'cog', file: 'tree_canopy.tif', geometry: 'raster', cogValue: 1 }
+  // Sewer Areas dropped from the available layers for now (registry entry removed).
+];
