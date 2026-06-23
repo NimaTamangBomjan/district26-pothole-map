@@ -1,0 +1,170 @@
+/* ==========================================================================
+   D26 Green Infrastructure — global stylesheet
+   Design tokens (from Figma variables), font faces, reset, focus rings.
+   Tokens are the single source of truth; components reference var(--…) only.
+   ========================================================================== */
+
+/* ---- Fonts ------------------------------------------------------------- */
+/* AUTHENTIC Sans: Figma "style 90" = regular (400), "style 130" = semibold (600). */
+@font-face {
+  font-family: 'AUTHENTIC Sans';
+  src: url('/fonts/authentic-sans-pro-90.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AUTHENTIC Sans';
+  src: url('/fonts/authentic-sans-pro-130.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Condensed cut, registered as a sibling family (used where the design calls for it). */
+@font-face {
+  font-family: 'AUTHENTIC Sans Condensed';
+  src: url('/fonts/authentic-sans-pro-condensed-90.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AUTHENTIC Sans Condensed';
+  src: url('/fonts/authentic-sans-pro-condensed-130.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Icon font. Figma `icon/default` uses NewComputerModernMono10 BookItalic. */
+@font-face {
+  font-family: 'NewComputerModernMono10';
+  src: url('/fonts/NewCMMono10-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NewComputerModernMono10';
+  src: url('/fonts/NewCMMono10-BookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Tokens ------------------------------------------------------------ */
+:root {
+  /* Surface / text colors */
+  --color-surface-base: #ffffff;
+  --color-on-surface-primary: #0a0a0a;
+  --color-on-surface-secondary: #707070;
+  --color-on-surface-beta-blue: #2359a8;
+
+  /* Rank widget */
+  --color-rank-filled: #2359a8; /* Figma color/rank/filled (= beta-blue) */
+  --color-rank-empty: #e2e2e2;
+
+  /* Zip hover highlight (map + sidebar list) — red fill + complementary stroke */
+  --color-zip-hover-fill: #e23b3b;
+  --color-zip-hover-stroke: #a01616;
+
+  /* Layer accent colors, shared by sidebar/toolbar
+     swatches AND the MapLibre paint expression for each layer. */
+  --color-layer-100-year: #fee6bf;
+  --color-layer-500-year: #fd9a52;
+  --color-layer-limited-flood: #b3e3ee;
+  --color-layer-moderate-flood: #9fb1c6;
+  --color-layer-tree-canopy: #b3de69;
+  --color-layer-permeable-surfaces: #ccebc5;
+  --color-layer-sewer-areas: #cabddc;
+
+  /* Spacing scale (Figma Spacing/space/*, 4px base) */
+  --space-25: 1px;
+  --space-50: 2px;
+  --space-100: 4px;
+  --space-200: 8px;
+  --space-300: 12px;
+  --space-400: 16px;
+  --space-1200: 48px;
+
+  /* Mobile bottom-sheet peek height (shared so the map's bottom controls can sit
+     above the sheet's resting top edge). */
+  --sheet-peek: 120px;
+
+  /* Typography */
+  --font-family-base: 'AUTHENTIC Sans', system-ui, -apple-system, sans-serif;
+  --font-family-condensed: 'AUTHENTIC Sans Condensed', 'AUTHENTIC Sans', sans-serif;
+  --font-family-icon: 'NewComputerModernMono10', ui-monospace, monospace;
+
+  /* Type styles (size / weight / line-height / letter-spacing) */
+  --type-title-size: 18px;       /* title/map-heading */
+  --type-title-weight: 600;
+  --type-title-tracking: -0.2px;
+  --type-body-size: 14px;        /* body/default */
+  --type-body-weight: 400;
+  --type-small-size: 12px;       /* body/small */
+  --type-small-weight: 400;
+  --type-small-bold-weight: 600; /* body/small-bold */
+  --type-caption-size: 11px;     /* caption/metadata */
+  --type-caption-weight: 400;
+  --type-line-height: 1;         /* Figma lineHeight 100 = 100% */
+
+  /* Interaction */
+  --focus-ring-color: var(--color-on-surface-beta-blue);
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+}
+
+/* ---- Reset ------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--type-body-size);
+  font-weight: var(--type-body-weight);
+  line-height: var(--type-line-height);
+  color: var(--color-on-surface-primary);
+  background: var(--color-surface-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#app {
+  height: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* ---- Focus rings ------ */
+:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+/* Suppress the non-keyboard focus outline only where :focus-visible applies. */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ---- MapLibre point popup chrome (the box styling lives in Popup.svelte) --- */
+.maplibregl-popup.d26-popup .maplibregl-popup-content {
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+.maplibregl-popup.d26-popup .maplibregl-popup-tip {
+  display: none;
+}

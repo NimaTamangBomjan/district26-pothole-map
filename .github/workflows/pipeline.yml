@@ -53,7 +53,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Pull the Tier 2 mirror. Update the tag name when you publish data-v3.
+      # Pull the Tier 2 mirror. 
+      # Update the tag name upon new release.
       - name: Download data mirror
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -86,16 +87,57 @@ jobs:
           git commit -m "chore(pipeline): refresh outputs $(date -u +%Y-%m-%d)"
           git push
 
-      # Package data/processed/ for the Pages deploy job. We do this even
-      # when no commit happened so deploys can recover from past misconfigs
-      # without needing a forced output change.
+      # Hand the freshly built data/processed/ to the web build job. (A regular
+      # artifact, not the Pages artifact: the Pages artifact is now web/dist.)
+      - name: Upload processed data
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-data
+          path: data/processed/
+
+  # Build the Svelte app and bundle it with the data for the Pages deploy. Runs
+  # on the plain runner (Node), not the geospatial container.
+  build-web:
+    needs: pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # web/public/data is a symlink (→ ../../data/processed) for local dev. In CI
+      # replace it with the real data so the build never depends on symlink
+      # restoration or Vite following it: download the artifact straight into it.
+      - name: Remove the dev data symlink
+        run: rm -f web/public/data
+      - name: Download processed data
+        uses: actions/download-artifact@v4
+        with:
+          name: processed-data
+          path: web/public/data
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Build web app
+        working-directory: web
+        # Cache-bust the parquet + 311 GeoJSON with the commit SHA.
+        env:
+          VITE_BUILD_VERSION: ${{ github.sha }}
+        run: |
+          npm ci
+          npm run build
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: data/processed/
+          path: web/dist
 
   deploy:
-    needs: pipeline
+    needs: build-web
     runs-on: ubuntu-latest
     environment:
       name: github-pages
