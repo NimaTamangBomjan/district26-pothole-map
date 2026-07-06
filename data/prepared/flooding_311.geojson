@@ -3,7 +3,7 @@
 "name": "flooding_311",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "created_date": "2026-07-03T18:58:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Sewer Backup (Use Comments) (SA)" }, "geometry": { "type": "Point", "coordinates": [ -73.892967575124999, 40.744999091723997 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-03T18:58:00Z", "closed_date": "2026-07-03T21:40:00Z", "agency": "DEP", "descriptor": "Sewer Backup (Use Comments) (SA)" }, "geometry": { "type": "Point", "coordinates": [ -73.892967575124999, 40.744999091723997 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-06-30T22:59:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.921479593623999, 40.743482253412999 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-06-29T05:03:00Z", "closed_date": "2026-06-29T06:15:00Z", "agency": "DEP", "descriptor": "Sewer Backup (Use Comments) (SA)" }, "geometry": { "type": "Point", "coordinates": [ -73.921879871225997, 40.762204449235 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-06-26T19:47:00Z", "closed_date": "2026-06-27T09:30:00Z", "agency": "DEP", "descriptor": "Street Flooding (SJ)" }, "geometry": { "type": "Point", "coordinates": [ -73.946125402302997, 40.741915442366 ] } },
