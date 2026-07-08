@@ -3,6 +3,12 @@
 "name": "flooding_311",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T19:10:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.899685212307006, 40.746404961594003 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T16:18:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.918349017916995, 40.744901857658 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T15:44:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.913873324565003, 40.748217000940002 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T13:09:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.921360141478004, 40.731558962142003 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T12:54:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Street Flooding (SJ)" }, "geometry": { "type": "Point", "coordinates": [ -73.938016459164999, 40.734313887412 ] } },
+{ "type": "Feature", "properties": { "created_date": "2026-07-06T10:21:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Street Flooding (SJ)" }, "geometry": { "type": "Point", "coordinates": [ -73.888770550508994, 40.727637283131003 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-07-05T21:57:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.908275233675994, 40.714454920576003 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-07-05T19:48:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Catch Basin Clogged/Flooding (Use Comments) (SC)" }, "geometry": { "type": "Point", "coordinates": [ -73.891975204256994, 40.738276265072003 ] } },
 { "type": "Feature", "properties": { "created_date": "2026-07-05T19:34:00Z", "closed_date": null, "agency": "DEP", "descriptor": "Street Flooding (SJ)" }, "geometry": { "type": "Point", "coordinates": [ -73.952081889577002, 40.749035211062001 ] } },
