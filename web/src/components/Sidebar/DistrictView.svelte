@@ -13,9 +13,11 @@
     open: number;
     inProgress: number;
     closed: number;
-    highPriority: number;
-    mediumPriority: number;
-    lowPriority: number;
+    averageDaysOpen: number | null;
+    oldestOpenDays: number | null;
+    officeTracked: number;
+    dateStart: string;
+    dateEnd: string;
   };
 
   let potholeStats: PotholeStats | null = null;
@@ -25,8 +27,20 @@
     return String(value ?? '').trim().toLowerCase();
   }
 
-  function normalizePriority(value: unknown) {
-    return String(value ?? '').trim().toLowerCase();
+  function formatDate(value: string) {
+    if (!value) return '—';
+
+    const [year, month, day] = value.split('-');
+
+    if (!year || !month || !day) return value;
+
+    return `${Number(month)}/${Number(day)}/${year}`;
+  }
+
+  function formatDateRange(stats: PotholeStats) {
+    if (!stats.dateStart || !stats.dateEnd) return 'Last 30 days';
+
+    return `${formatDate(stats.dateStart)} – ${formatDate(stats.dateEnd)}`;
   }
 
   onMount(async () => {
@@ -37,36 +51,60 @@
       const data = await res.json();
       const features = Array.isArray(data.features) ? data.features : [];
 
+      const dates: string[] = [];
+      const openDays: number[] = [];
+
       const stats: PotholeStats = {
         total: features.length,
         open: 0,
         inProgress: 0,
         closed: 0,
-        highPriority: 0,
-        mediumPriority: 0,
-        lowPriority: 0
+        averageDaysOpen: null,
+        oldestOpenDays: null,
+        officeTracked: 0,
+        dateStart: '',
+        dateEnd: ''
       };
 
       for (const feature of features) {
         const props = feature?.properties ?? {};
         const status = normalizeStatus(props.status);
-        const priority = normalizePriority(props.priority);
+        const dateValue = String(props.city_created_date ?? props.reported_date ?? '').trim();
+        const daysOpen = Number(props.days_open ?? 0);
+
+        if (dateValue) {
+          dates.push(dateValue);
+        }
+
+        if (props.office_tracked === true || props.office_tracked === 'true') {
+          stats.officeTracked += 1;
+        }
 
         if (status === 'open' || status === 'reported') {
           stats.open += 1;
+
+          if (Number.isFinite(daysOpen)) {
+            openDays.push(daysOpen);
+          }
         } else if (status === 'in progress' || status === 'in-progress') {
           stats.inProgress += 1;
+
+          if (Number.isFinite(daysOpen)) {
+            openDays.push(daysOpen);
+          }
         } else if (status === 'closed' || status === 'completed' || status === 'repaired') {
           stats.closed += 1;
         }
+      }
 
-        if (priority === 'high') {
-          stats.highPriority += 1;
-        } else if (priority === 'medium') {
-          stats.mediumPriority += 1;
-        } else if (priority === 'low') {
-          stats.lowPriority += 1;
-        }
+      dates.sort((a, b) => a.localeCompare(b));
+
+      stats.dateStart = dates[0] ?? '';
+      stats.dateEnd = dates[dates.length - 1] ?? '';
+
+      if (openDays.length > 0) {
+        stats.averageDaysOpen = Math.round((openDays.reduce((sum, value) => sum + value, 0) / openDays.length) * 10) / 10;
+        stats.oldestOpenDays = Math.max(...openDays);
       }
 
       potholeStats = stats;
@@ -95,7 +133,7 @@
     >
       <span class="label">
         <span class="chevron" class:is-open={trackerExpanded}>›</span>
-        Pothole Repair Tracker
+        311 Potholes - Last 30 Days
       </span>
       <span class="value">{potholeStats ? String(potholeStats.total) : '—'}</span>
     </button>
@@ -105,9 +143,10 @@
         <StatRow label="Open" value={potholeStats ? String(potholeStats.open) : '—'} />
         <StatRow label="In Progress" value={potholeStats ? String(potholeStats.inProgress) : '—'} />
         <StatRow label="Closed" value={potholeStats ? String(potholeStats.closed) : '—'} />
-        <StatRow label="High Priority" value={potholeStats ? String(potholeStats.highPriority) : '—'} />
-        <StatRow label="Medium Priority" value={potholeStats ? String(potholeStats.mediumPriority) : '—'} />
-        <StatRow label="Low Priority" value={potholeStats ? String(potholeStats.lowPriority) : '—'} />
+        <StatRow label="Average Days Open" value={potholeStats?.averageDaysOpen !== null && potholeStats ? String(potholeStats.averageDaysOpen) : '—'} />
+        <StatRow label="Oldest Open Request" value={potholeStats?.oldestOpenDays !== null && potholeStats ? `${potholeStats.oldestOpenDays} days` : '—'} />
+        <StatRow label="Office Tracked" value={potholeStats ? String(potholeStats.officeTracked) : '—'} />
+        <StatRow label="Date Range" value={potholeStats ? formatDateRange(potholeStats) : '—'} />
       </div>
     {/if}
   </div>
