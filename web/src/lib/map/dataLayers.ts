@@ -114,6 +114,51 @@ function addOne(map: Map, l: LayerDef): void {
     if (!map.getSource(sid)) map.addSource(sid, { type: 'geojson', data: freshDataUrl(l.file) });
   }
 
+  if (l.id === 'potholes') {
+    map.addLayer({
+      id: layerId(l),
+      type: 'circle',
+      source: sid,
+      ...(l.sourceLayer ? { 'source-layer': l.sourceLayer } : {}),
+      layout: { visibility: 'none' },
+      paint: {
+        'circle-radius': [
+          'interpolate',
+          ['linear'],
+          ['zoom'],
+          10, [
+            'match',
+            ['get', 'priority'],
+            'High', 6,
+            'Low', 4,
+            5
+          ],
+          16, [
+            'match',
+            ['get', 'priority'],
+            'High', 10,
+            'Low', 7,
+            8
+          ]
+        ],
+        'circle-color': [
+          'match',
+          ['get', 'status'],
+          ['Reported', 'Open'], '#C94C4C',
+          'In Progress', '#D9A441',
+          ['Completed', 'Repaired', 'Closed'], '#4F9D69',
+          '#6B7280'
+        ],
+        'circle-opacity': 0.88,
+        'circle-stroke-color': '#FFFFFF',
+        'circle-stroke-width': 1.5,
+        'circle-stroke-opacity': 0.95
+      }
+    } as any);
+
+    return;
+  }
+
   if (l.geometry === 'point' && l.indicator.type === 'icon') {
     map.addLayer({
       id: layerId(l),

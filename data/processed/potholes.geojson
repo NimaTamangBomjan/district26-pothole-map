@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": "PH-001",
-        "status": "Open",
+        "status": "Reported",
         "priority": "High",
         "address": "31st Ave & 35th St",
         "sr_number": "311-000001",
@@ -16,14 +16,17 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.9271, 40.7562]
+        "coordinates": [
+          -73.9271,
+          40.7562
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "id": "PH-002",
-        "status": "Repaired",
+        "status": "Completed",
         "priority": "Medium",
         "address": "Skillman Ave & 45th St",
         "sr_number": "311-000002",
@@ -34,7 +37,31 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.9186, 40.7464]
+        "coordinates": [
+          -73.9186,
+          40.7464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PH-003",
+        "status": "In Progress",
+        "priority": "Low",
+        "address": "Northern Blvd & 41st Ave",
+        "sr_number": "311-000003",
+        "reported_date": "2026-07-14",
+        "repaired_date": "",
+        "source": "Sample data",
+        "notes_public": "Sample in-progress pothole for testing status colors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9215,
+          40.752
+        ]
       }
     }
   ]
