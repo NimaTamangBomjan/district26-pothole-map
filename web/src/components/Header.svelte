@@ -14,7 +14,7 @@
    */
   let {
     onAbout,
-    githubUrl = 'https://github.com/BetaNYC/d26-gi-web-map'
+    githubUrl = 'https://github.com/NimaTamangBomjan/district26-pothole-map'
   }: {
     onAbout?: () => void;
     githubUrl?: string;
