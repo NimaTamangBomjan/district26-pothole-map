@@ -68,6 +68,17 @@ export const POPUP_FIELDS: Record<string, PopupField[]> = {
     { key: 'created_date', label: 'Opened', format: formatEastern },
     { key: 'closed_date', label: 'Closed', format: formatEastern }
   ],
+  // Potholes
+  potholes: [
+    { key: 'address', label: 'Location' },
+    { key: 'status', label: 'Status' },
+    { key: 'priority', label: 'Priority' },
+    { key: 'sr_number', label: '311 SR Number' },
+    { key: 'reported_date', label: 'Reported Date' },
+    { key: 'repaired_date', label: 'Completed Date' },
+    { key: 'source', label: 'Source' },
+    { key: 'notes_public', label: 'Notes' }
+  ],
   // CSO Outfalls (cso_outfalls): Waterbody, Waterbod_1
   cso: [
     { key: 'Waterbody', label: 'Waterbody' },
