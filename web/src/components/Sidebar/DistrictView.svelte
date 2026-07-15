@@ -43,6 +43,10 @@
     return `${formatDate(stats.dateStart)} – ${formatDate(stats.dateEnd)}`;
   }
 
+  function formatNumber(value: number | null) {
+    return value === null ? '—' : String(value);
+  }
+
   onMount(async () => {
     try {
       const res = await fetch('data/potholes.geojson');
@@ -141,11 +145,15 @@
     {#if trackerExpanded}
       <div class="tracker-details">
         <StatRow label="Open" value={potholeStats ? String(potholeStats.open) : '—'} />
-        <StatRow label="In Progress" value={potholeStats ? String(potholeStats.inProgress) : '—'} />
+        {#if potholeStats && potholeStats.inProgress > 0}
+          <StatRow label="In Progress" value={String(potholeStats.inProgress)} />
+        {/if}
         <StatRow label="Closed" value={potholeStats ? String(potholeStats.closed) : '—'} />
-        <StatRow label="Average Days Open" value={potholeStats?.averageDaysOpen !== null && potholeStats ? String(potholeStats.averageDaysOpen) : '—'} />
-        <StatRow label="Oldest Open Request" value={potholeStats?.oldestOpenDays !== null && potholeStats ? `${potholeStats.oldestOpenDays} days` : '—'} />
-        <StatRow label="Office Tracked" value={potholeStats ? String(potholeStats.officeTracked) : '—'} />
+        <StatRow label="Average Days Open" value={potholeStats ? formatNumber(potholeStats.averageDaysOpen) : '—'} />
+        <StatRow label="Oldest Open Request" value={potholeStats && potholeStats.oldestOpenDays !== null ? `${potholeStats.oldestOpenDays} days` : '—'} />
+        {#if potholeStats && potholeStats.officeTracked > 0}
+          <StatRow label="Office Tracked" value={String(potholeStats.officeTracked)} />
+        {/if}
         <StatRow label="Date Range" value={potholeStats ? formatDateRange(potholeStats) : '—'} />
       </div>
     {/if}

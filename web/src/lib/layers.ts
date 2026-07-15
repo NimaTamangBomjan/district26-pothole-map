@@ -25,7 +25,7 @@ export interface LayerDef {
 export const LAYERS: LayerDef[] = [
   { id: 'gi', label: 'Green Infrastructure', indicator: { type: 'icon', code: 'GI' }, ranked: true, rankColumn: 'rank_n_gi_sqmi', delivery: 'pmtiles', file: 'gi_all_layers.pmtiles', sourceLayer: 'gi_all_layers', geometry: 'point' },
   { id: 'flooding_311', label: '311 Service Requests (Flooding-Related)', indicator: { type: 'icon', code: '311' }, ranked: true, rankColumn: 'rank_n_flooding_311_p10k', delivery: 'geojson', file: 'flooding_311.geojson', geometry: 'point' },
-  { id: 'potholes', label: 'Pothole Repair Tracker', indicator: { type: 'icon', code: 'PH' }, ranked: false, rankColumn: null, delivery: 'geojson', file: 'potholes.geojson', geometry: 'point' },
+  { id: 'potholes', label: '311 Potholes - Last 30 Days', indicator: { type: 'icon', code: 'PH' }, ranked: false, rankColumn: null, delivery: 'geojson', file: 'potholes.geojson', geometry: 'point' },
   { id: 'catch_basins', label: 'Catch Basins', indicator: { type: 'icon', code: 'CB' }, ranked: true, rankColumn: 'rank_n_cb_sqmi', delivery: 'pmtiles', file: 'catch_basins.pmtiles', sourceLayer: 'catch_basins', geometry: 'point' },
   { id: 'cso', label: 'Combined Sewer Overflow Outfalls', indicator: { type: 'icon', code: 'CSO' }, ranked: false, rankColumn: null, delivery: 'pmtiles', file: 'cso_outfalls.pmtiles', sourceLayer: 'cso_outfalls', geometry: 'point' },
   { id: 'fema_100', label: '100-Year Flood Plane', indicator: { type: 'swatch', colorVar: '--color-layer-100-year' }, ranked: true, rankColumn: 'rank_pct_100_year', delivery: 'pmtiles', file: 'nfhl_100yr.pmtiles', sourceLayer: 'nfhl_100yr', geometry: 'polygon' },
