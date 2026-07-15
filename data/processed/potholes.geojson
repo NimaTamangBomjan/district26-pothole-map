@@ -39,10 +39,10 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "69699888",
-        "sr_number": "69699888",
-        "status": "Open",
-        "city_status": "Open",
+        "id": "69660539",
+        "sr_number": "69660539",
+        "status": "Closed",
+        "city_status": "Closed",
         "priority": "Medium",
         "address": "",
         "borough": "QUEENS",
@@ -50,14 +50,14 @@
         "agency_name": "Department of Transportation",
         "complaint_type": "Street Condition",
         "descriptor": "Pothole",
-        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
         "reported_date": "2026-07-15",
         "office_added_date": "2026-07-15",
         "office_role": "Tracked",
         "office_source": "Julie Won Office",
-        "city_created_date": "2026-07-13",
-        "closed_date": "",
-        "city_closed_date": "",
+        "city_created_date": "2026-07-09",
+        "closed_date": "2026-07-10",
+        "city_closed_date": "2026-07-10",
         "days_open": 0,
         "notes_public": "District 26 pothole test",
         "source": "Julie Won Office",
@@ -66,16 +66,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.92913642296949,
-          40.76822836158281
+          -73.9383184795664,
+          40.758865835443366
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "69709923",
-        "sr_number": "69709923",
+        "id": "69665560",
+        "sr_number": "69665560",
         "status": "Closed",
         "city_status": "Closed",
         "priority": "Medium",
@@ -90,9 +90,9 @@
         "office_added_date": "2026-07-15",
         "office_role": "Tracked",
         "office_source": "Julie Won Office",
-        "city_created_date": "2026-07-13",
-        "closed_date": "2026-07-13",
-        "city_closed_date": "2026-07-13",
+        "city_created_date": "2026-07-09",
+        "closed_date": "2026-07-09",
+        "city_closed_date": "2026-07-09",
         "days_open": 0,
         "notes_public": "District 26 pothole test",
         "source": "Julie Won Office",
@@ -101,8 +101,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.90708562471892,
-          40.76823739184279
+          -73.93739654434637,
+          40.74891563083155
         ]
       }
     }
