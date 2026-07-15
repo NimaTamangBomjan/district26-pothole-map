@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+python3 scripts/build-potholes.py
+
+cd web
+npm run build
+
+cd ..
+git status --short
+
+echo ""
+echo "Next publish command:"
+echo "git add data/processed/potholes.geojson scripts/build-potholes.py scripts/update-potholes data/templates/office-potholes-template.csv && git commit -m \"Update pothole data\" && git push origin main"
