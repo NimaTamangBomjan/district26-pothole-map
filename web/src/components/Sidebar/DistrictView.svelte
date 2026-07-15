@@ -20,12 +20,14 @@
     dateEnd: string;
   };
 
+  type PotholeMapFilter = 'all' | 'office';
+
   let potholeStats: PotholeStats | null = null;
   let trackerExpanded = false;
 
-  type PotholeMapFilter = 'all' | 'office';
-
   function showPotholes(mode: PotholeMapFilter) {
+    if (mode === 'office' && (!potholeStats || potholeStats.officeTracked === 0)) return;
+
     potholeFilter.set(mode);
 
     visibleLayers.update((layers) => {
@@ -168,24 +170,30 @@
         {/if}
         <StatRow label="Date Range" value={potholeStats ? formatDateRange(potholeStats) : '—'} />
 
-        <div class="pothole-filter-actions" aria-label="Pothole map filter">
+        <div class="map-view-group">
+          <div class="map-view-label">Map View</div>
+
           <button
             type="button"
+            class="filter-row"
             class:active={$potholeFilter === 'all'}
             aria-pressed={$potholeFilter === 'all'}
             onclick={() => showPotholes('all')}
           >
-            Show All 311
+            <span class="filter-label">All 311 Potholes</span>
+            <span class="filter-value">{$potholeFilter === 'all' ? 'On' : potholeStats ? String(potholeStats.total) : '—'}</span>
           </button>
 
           <button
             type="button"
+            class="filter-row"
             class:active={$potholeFilter === 'office'}
             aria-pressed={$potholeFilter === 'office'}
             disabled={!potholeStats || potholeStats.officeTracked === 0}
             onclick={() => showPotholes('office')}
           >
-            Show Office Only
+            <span class="filter-label">Office Tracked Only</span>
+            <span class="filter-value">{$potholeFilter === 'office' ? 'On' : potholeStats ? String(potholeStats.officeTracked) : '—'}</span>
           </button>
         </div>
       </div>
@@ -248,33 +256,56 @@
     border-left: 0.5px solid var(--color-on-surface-secondary);
   }
 
-  .pothole-filter-actions {
-    display: flex;
-    gap: 6px;
-    margin-top: 8px;
-    margin-bottom: 4px;
+  .map-view-group {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 0.5px solid var(--color-on-surface-secondary);
   }
 
-  .pothole-filter-actions button {
-    flex: 1;
-    border: 0.5px solid var(--color-on-surface-secondary);
-    border-radius: 999px;
+  .map-view-label {
+    padding-block: 6px 2px;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-on-surface-secondary);
+  }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-block: var(--space-100);
+    padding-inline: 0;
+    border: 0;
     background: transparent;
-    color: var(--color-on-surface-primary);
     font: inherit;
-    font-size: 11px;
-    padding: 5px 8px;
+    font-size: var(--type-small-size);
+    color: var(--color-on-surface-primary);
+    text-align: left;
     cursor: pointer;
   }
 
-  .pothole-filter-actions button.active {
-    border-color: var(--color-on-surface-beta-blue);
-    background: color-mix(in srgb, var(--color-on-surface-beta-blue) 10%, transparent);
-  }
-
-  .pothole-filter-actions button:disabled {
+  .filter-row:disabled {
     opacity: 0.45;
     cursor: not-allowed;
+  }
+
+  .filter-row.active .filter-value {
+    color: var(--color-on-surface-beta-blue);
+  }
+
+  .filter-label {
+    flex: 1 0 0;
+    min-width: 0;
+  }
+
+  .filter-value {
+    flex-shrink: 0;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-on-surface-secondary);
   }
 
   .context {

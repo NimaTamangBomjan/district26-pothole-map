@@ -53,13 +53,17 @@ export function applyPotholeFilter(map: Map, mode: PotholeFilterMode): void {
   if (mode === 'office') {
     map.setFilter(potholeLayerId, [
       'any',
-      ['==', 'office_tracked', true],
-      ['==', 'office_tracked', 'true']
+      ['==', ['get', 'office_tracked'], true],
+      ['==', ['get', 'office_tracked'], 'true'],
+      ['==', ['get', 'office_tracked'], 'TRUE'],
+      ['==', ['get', 'office_tracked'], 1],
+      ['==', ['get', 'office_tracked'], '1']
     ] as any);
   } else {
-    map.setFilter(potholeLayerId, ['has', 'sr_number'] as any);
+    map.setFilter(potholeLayerId, null as any);
   }
 }
+
 
 export async function addDataLayers(map: Map): Promise<void> {
   await ensureIconFont();
