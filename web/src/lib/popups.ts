@@ -75,7 +75,7 @@ export const POPUP_FIELDS: Record<string, PopupField[]> = {
     { key: 'priority', label: 'Priority' },
     { key: 'sr_number', label: '311 SR Number' },
     { key: 'reported_date', label: 'Reported Date' },
-    { key: 'repaired_date', label: 'Completed Date' },
+    { key: 'closed_date', label: 'Closed Date' },
     { key: 'source', label: 'Source' },
     { key: 'notes_public', label: 'Notes' }
   ],

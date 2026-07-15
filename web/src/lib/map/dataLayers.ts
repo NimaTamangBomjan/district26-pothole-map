@@ -129,29 +129,29 @@ function addOne(map: Map, l: LayerDef): void {
           10, [
             'match',
             ['get', 'priority'],
-            'High', 6,
-            'Low', 4,
-            5
+            'High', 5,
+            'Low', 3.5,
+            4.25
           ],
           16, [
             'match',
             ['get', 'priority'],
-            'High', 10,
-            'Low', 7,
-            8
+            'High', 8,
+            'Low', 5.5,
+            6.5
           ]
         ],
         'circle-color': [
           'match',
           ['get', 'status'],
-          ['Reported', 'Open'], '#C94C4C',
+          ['Open', 'Reported'], '#C94C4C',
           'In Progress', '#D9A441',
-          ['Completed', 'Repaired', 'Closed'], '#4F9D69',
+          ['Closed', 'Completed', 'Repaired'], '#4F9D69',
           '#6B7280'
         ],
-        'circle-opacity': 0.88,
+        'circle-opacity': 0.86,
         'circle-stroke-color': '#FFFFFF',
-        'circle-stroke-width': 1.5,
+        'circle-stroke-width': 1.25,
         'circle-stroke-opacity': 0.95
       }
     } as any);
