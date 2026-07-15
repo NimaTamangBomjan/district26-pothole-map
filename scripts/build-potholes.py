@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 
-import csv
 import json
-import time
 import urllib.parse
 import urllib.request
 from datetime import date, datetime
 from pathlib import Path
 
-input_csv = Path("data/prepared/pothole-sr-numbers.csv")
 output_geojson = Path("data/processed/potholes.geojson")
 
 nyc_311_endpoint = "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
-office_source = "Julie Won Office"
+
+west = -73.96262
+south = 40.71999
+east = -73.8877
+north = 40.76424
+
+limit = 100
 
 fields = [
     "unique_key",
@@ -44,20 +47,6 @@ status_map = {
 
 def clean(value):
     return (value or "").strip()
-
-def is_true(value):
-    return clean(value).lower() in {"true", "yes", "y", "1", "x", "checked"}
-
-def clean_sr_number(value):
-    raw = clean(value)
-    digits = "".join(ch for ch in raw if ch.isdigit())
-
-    # Some office records may write the number like 31127454484.
-    # NYC Open Data usually stores that as 27454484.
-    if digits.startswith("311") and len(digits) > 8:
-        digits = digits[3:]
-
-    return digits or raw
 
 def parse_date(value):
     value = clean(value)
@@ -91,28 +80,6 @@ def normalize_status(value):
     raw = clean(value).lower()
     return status_map.get(raw, clean(value) or "Open")
 
-def fetch_311_record(sr_number):
-    query = {
-        "$select": ",".join(fields),
-        "$limit": "1",
-        "unique_key": sr_number,
-    }
-
-    url = nyc_311_endpoint + "?" + urllib.parse.urlencode(query)
-
-    request = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/json",
-            "User-Agent": "District26PotholeTracker/1.0",
-        },
-    )
-
-    with urllib.request.urlopen(request, timeout=30) as response:
-        data = json.loads(response.read().decode("utf-8"))
-
-    return data[0] if data else None
-
 def make_address(record):
     address = clean(record.get("incident_address"))
     if address:
@@ -133,100 +100,111 @@ def make_address(record):
 
     return ""
 
-def main():
-    if not input_csv.exists():
-        raise SystemExit(f"Missing input file: {input_csv}")
+def fetch_d26_potholes():
+    where = (
+        "complaint_type='Street Condition' "
+        "AND descriptor='Pothole' "
+        "AND borough='QUEENS' "
+        f"AND latitude >= {south} "
+        f"AND latitude <= {north} "
+        f"AND longitude >= {west} "
+        f"AND longitude <= {east} "
+        "AND latitude IS NOT NULL "
+        "AND longitude IS NOT NULL"
+    )
 
+    query = {
+        "$select": ",".join(fields),
+        "$where": where,
+        "$order": "created_date DESC",
+        "$limit": str(limit),
+    }
+
+    url = nyc_311_endpoint + "?" + urllib.parse.urlencode(query)
+
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": "District26PotholeTracker/1.0",
+        },
+    )
+
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+def main():
+    records = fetch_d26_potholes()
     features = []
     warnings = []
 
-    with input_csv.open(newline="", encoding="utf-8-sig") as file:
-        reader = csv.DictReader(file)
+    for record in records:
+        sr_number = clean(record.get("unique_key"))
+        lat = clean(record.get("latitude"))
+        lon = clean(record.get("longitude"))
 
-        for row in reader:
-            include_value = row.get("include_on_map")
+        if not sr_number or not lat or not lon:
+            warnings.append(f"Skipped record missing sr number or coordinates: {record}")
+            continue
 
-            if include_value is not None and not is_true(include_value):
-                continue
+        city_status = clean(record.get("status"))
+        status = normalize_status(city_status)
 
-            sr_number = clean_sr_number(row.get("sr_number"))
+        city_created_date = date_only(record.get("created_date"))
+        city_closed_date = date_only(record.get("closed_date"))
 
-            if not sr_number:
-                warnings.append("Skipped one blank SR number row.")
-                continue
+        properties = {
+            "id": sr_number,
+            "sr_number": sr_number,
 
-            try:
-                record = fetch_311_record(sr_number)
-                time.sleep(0.15)
-            except Exception as error:
-                warnings.append(f"{sr_number}: API error: {error}")
-                continue
+            "status": status,
+            "city_status": city_status,
+            "priority": "Medium",
 
-            if not record:
-                warnings.append(f"{sr_number}: not found in NYC 311 API.")
-                continue
+            "address": make_address(record),
+            "borough": clean(record.get("borough")),
+            "agency": clean(record.get("agency")),
+            "agency_name": clean(record.get("agency_name")),
+            "complaint_type": clean(record.get("complaint_type")),
+            "descriptor": clean(record.get("descriptor")),
+            "resolution_description": clean(record.get("resolution_description")),
 
-            lat = clean(record.get("latitude"))
-            lon = clean(record.get("longitude"))
+            "reported_date": city_created_date,
+            "city_created_date": city_created_date,
+            "closed_date": city_closed_date if status == "Closed" else "",
+            "city_closed_date": city_closed_date,
+            "days_open": days_between(city_created_date, city_closed_date if status == "Closed" else None),
 
-            if not lat or not lon:
-                warnings.append(f"{sr_number}: found, but missing latitude/longitude.")
-                continue
+            "data_source": "NYC 311 Open Data",
+            "source": "NYC 311 Open Data",
 
-            city_status = clean(record.get("status"))
-            status = normalize_status(city_status)
+            "office_tracked": False,
+            "office_source": "",
+            "office_role": "",
+            "office_added_date": "",
 
-            city_created_date = date_only(record.get("created_date"))
-            city_closed_date = date_only(record.get("closed_date"))
+            "notes_public": "District 26-area pothole 311 request",
+            "photo_url": "",
+        }
 
-            office_added_date = clean(row.get("office_added_date"))
-            tracking_start_date = office_added_date or city_created_date
-
-            properties = {
-                "id": sr_number,
-                "sr_number": sr_number,
-                "status": status,
-                "city_status": city_status,
-                "priority": "Medium",
-                "address": make_address(record),
-                "borough": clean(record.get("borough")),
-                "agency": clean(record.get("agency")),
-                "agency_name": clean(record.get("agency_name")),
-                "complaint_type": clean(record.get("complaint_type")),
-                "descriptor": clean(record.get("descriptor")),
-                "resolution_description": clean(record.get("resolution_description")),
-                "reported_date": tracking_start_date,
-                "office_added_date": office_added_date,
-                "office_role": clean(row.get("office_role")) or "Tracked",
-                "office_source": office_source,
-                "city_created_date": city_created_date,
-                "closed_date": city_closed_date if status == "Closed" else "",
-                "city_closed_date": city_closed_date,
-                "days_open": days_between(tracking_start_date, city_closed_date if status == "Closed" else None),
-                "notes_public": clean(row.get("notes_public")),
-                "source": office_source,
-                "photo_url": clean(row.get("photo_url")),
-            }
-
-            features.append({
-                "type": "Feature",
-                "properties": properties,
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [float(lon), float(lat)],
-                },
-            })
-
-    output_geojson.parent.mkdir(parents=True, exist_ok=True)
+        features.append({
+            "type": "Feature",
+            "properties": properties,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [float(lon), float(lat)],
+            },
+        })
 
     geojson = {
         "type": "FeatureCollection",
         "features": features,
     }
 
+    output_geojson.parent.mkdir(parents=True, exist_ok=True)
     output_geojson.write_text(json.dumps(geojson, indent=2) + "\n", encoding="utf-8")
 
-    print(f"Created {output_geojson} with {len(features)} potholes.")
+    print(f"Created {output_geojson} with {len(features)} D26-area potholes.")
 
     if warnings:
         print("\nWarnings:")
