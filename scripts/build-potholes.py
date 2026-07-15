@@ -3,7 +3,7 @@
 import json
 import urllib.parse
 import urllib.request
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 output_geojson = Path("data/processed/potholes.geojson")
@@ -15,7 +15,8 @@ south = 40.71999
 east = -73.8877
 north = 40.76424
 
-limit = 100
+days_back = 30
+limit = 5000
 
 fields = [
     "unique_key",
@@ -101,10 +102,13 @@ def make_address(record):
     return ""
 
 def fetch_d26_potholes():
+    start_date = (date.today() - timedelta(days=days_back)).isoformat()
+
     where = (
         "complaint_type='Street Condition' "
         "AND descriptor='Pothole' "
         "AND borough='QUEENS' "
+        f"AND created_date >= '{start_date}T00:00:00' "
         f"AND latitude >= {south} "
         f"AND latitude <= {north} "
         f"AND longitude >= {west} "
@@ -204,7 +208,7 @@ def main():
     output_geojson.parent.mkdir(parents=True, exist_ok=True)
     output_geojson.write_text(json.dumps(geojson, indent=2) + "\n", encoding="utf-8")
 
-    print(f"Created {output_geojson} with {len(features)} D26-area potholes.")
+    print(f"Created {output_geojson} with {len(features)} D26-area potholes from the last {days_back} days.")
 
     if warnings:
         print("\nWarnings:")

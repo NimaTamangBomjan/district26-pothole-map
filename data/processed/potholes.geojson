@@ -3700,6 +3700,820 @@
           40.74100954676229
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69454911",
+        "sr_number": "69454911",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-22",
+        "city_created_date": "2026-06-22",
+        "closed_date": "2026-06-22",
+        "city_closed_date": "2026-06-22",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91631147339149,
+          40.74085463113714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69435569",
+        "sr_number": "69435569",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-22",
+        "city_created_date": "2026-06-22",
+        "closed_date": "2026-06-22",
+        "city_closed_date": "2026-06-22",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939681044523,
+          40.7489827238065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69450724",
+        "sr_number": "69450724",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-21",
+        "city_created_date": "2026-06-21",
+        "closed_date": "2026-06-22",
+        "city_closed_date": "2026-06-22",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90057024365116,
+          40.74100954676229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69431292",
+        "sr_number": "69431292",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-20",
+        "city_created_date": "2026-06-20",
+        "closed_date": "2026-06-20",
+        "city_closed_date": "2026-06-20",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925107282449,
+          40.739526737114275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69428560",
+        "sr_number": "69428560",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-20",
+        "city_created_date": "2026-06-20",
+        "closed_date": "2026-06-20",
+        "city_closed_date": "2026-06-20",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90338918538406,
+          40.745595681752405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69426660",
+        "sr_number": "69426660",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-20",
+        "city_created_date": "2026-06-20",
+        "closed_date": "2026-06-20",
+        "city_closed_date": "2026-06-20",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89895243254458,
+          40.73699256388836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69430800",
+        "sr_number": "69430800",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-19",
+        "city_created_date": "2026-06-19",
+        "closed_date": "2026-06-20",
+        "city_closed_date": "2026-06-20",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9473546917806,
+          40.748108167133836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69414819",
+        "sr_number": "69414819",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-19",
+        "city_created_date": "2026-06-19",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90005402230014,
+          40.745941419306114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69416226",
+        "sr_number": "69416226",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "43 AVENUE",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-19",
+        "city_created_date": "2026-06-19",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90379396480859,
+          40.74269481810313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69403037",
+        "sr_number": "69403037",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-18",
+        "city_created_date": "2026-06-18",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93463406644878,
+          40.7394254930078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69408971",
+        "sr_number": "69408971",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-18",
+        "city_created_date": "2026-06-18",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92205845011026,
+          40.74532986399324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69410458",
+        "sr_number": "69410458",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-18",
+        "city_created_date": "2026-06-18",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9189230279616,
+          40.753636054923376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69408978",
+        "sr_number": "69408978",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-18",
+        "city_created_date": "2026-06-18",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90633230529538,
+          40.74171428915491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69410023",
+        "sr_number": "69410023",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "56-16 55 DRIVE",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-17",
+        "city_created_date": "2026-06-17",
+        "closed_date": "2026-06-18",
+        "city_closed_date": "2026-06-18",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91427666388265,
+          40.72645963768734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69408575",
+        "sr_number": "69408575",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "56-01 56 DRIVE",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-17",
+        "city_created_date": "2026-06-17",
+        "closed_date": "2026-06-18",
+        "city_closed_date": "2026-06-18",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91451380284529,
+          40.7244122242182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69394323",
+        "sr_number": "69394323",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-17",
+        "city_created_date": "2026-06-17",
+        "closed_date": "2026-06-17",
+        "city_closed_date": "2026-06-17",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90633230529538,
+          40.74171428915491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69399769",
+        "sr_number": "69399769",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-16",
+        "city_created_date": "2026-06-16",
+        "closed_date": "2026-06-17",
+        "city_closed_date": "2026-06-17",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91510543889461,
+          40.724442854308116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69395725",
+        "sr_number": "69395725",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "34-02 LAUREL HILL BOULEVARD",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-16",
+        "city_created_date": "2026-06-16",
+        "closed_date": "2026-06-17",
+        "city_closed_date": "2026-06-17",
+        "days_open": 1,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93083764811723,
+          40.729174361939656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69380053",
+        "sr_number": "69380053",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-16",
+        "city_created_date": "2026-06-16",
+        "closed_date": "2026-06-19",
+        "city_closed_date": "2026-06-19",
+        "days_open": 3,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90338918538406,
+          40.745595681752405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69384159",
+        "sr_number": "69384159",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-16",
+        "city_created_date": "2026-06-16",
+        "closed_date": "2026-06-16",
+        "city_closed_date": "2026-06-16",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92797462877834,
+          40.744238560105934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69388656",
+        "sr_number": "69388656",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-16",
+        "city_created_date": "2026-06-16",
+        "closed_date": "2026-06-16",
+        "city_closed_date": "2026-06-16",
+        "days_open": 0,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9189230279616,
+          40.753636054923376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69376820",
+        "sr_number": "69376820",
+        "status": "Closed",
+        "city_status": "Closed",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation inspected this complaint and repaired the problem.",
+        "reported_date": "2026-06-15",
+        "city_created_date": "2026-06-15",
+        "closed_date": "2026-06-18",
+        "city_closed_date": "2026-06-18",
+        "days_open": 3,
+        "data_source": "NYC 311 Open Data",
+        "source": "NYC 311 Open Data",
+        "office_tracked": false,
+        "office_source": "",
+        "office_role": "",
+        "office_added_date": "",
+        "notes_public": "District 26-area pothole 311 request",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8990802083935,
+          40.73363309557437
+        ]
+      }
     }
   ]
 }
