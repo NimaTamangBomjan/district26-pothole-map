@@ -10,10 +10,14 @@
         "address": "31st Ave & 35th St",
         "sr_number": "311-000001",
         "reported_date": "2026-07-13",
-        "repaired_date": "",
+        "office_reported_date": "2026-07-13",
+        "city_status": "Open",
+        "closed_date": "",
+        "city_closed_date": "",
         "source": "Office field check",
         "notes_public": "Large pothole near bus lane",
-        "closed_date": ""
+        "photo_url": "",
+        "days_open": 2
       },
       "geometry": {
         "type": "Point",
@@ -32,10 +36,14 @@
         "address": "Skillman Ave & 45th St",
         "sr_number": "311-000002",
         "reported_date": "2026-07-01",
-        "repaired_date": "2026-07-08",
+        "office_reported_date": "2026-07-01",
+        "city_status": "Closed",
+        "closed_date": "2026-07-08",
+        "city_closed_date": "2026-07-08",
         "source": "311",
-        "notes_public": "Marked repaired after DOT response",
-        "closed_date": "2026-07-08"
+        "notes_public": "Marked closed after DOT response",
+        "photo_url": "",
+        "days_open": 7
       },
       "geometry": {
         "type": "Point",
@@ -54,10 +62,14 @@
         "address": "Northern Blvd & 41st Ave",
         "sr_number": "311-000003",
         "reported_date": "2026-07-14",
-        "repaired_date": "",
+        "office_reported_date": "2026-07-14",
+        "city_status": "In Progress",
+        "closed_date": "",
+        "city_closed_date": "",
         "source": "Sample data",
-        "notes_public": "Sample in-progress pothole for testing status colors",
-        "closed_date": ""
+        "notes_public": "Sample in-progress pothole for testing",
+        "photo_url": "",
+        "days_open": 1
       },
       "geometry": {
         "type": "Point",
