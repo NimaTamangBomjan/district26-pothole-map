@@ -4,78 +4,105 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "PH-001",
-        "status": "Open",
-        "priority": "High",
-        "address": "31st Ave & 35th St",
-        "sr_number": "311-000001",
-        "reported_date": "2026-07-13",
-        "office_reported_date": "2026-07-13",
-        "city_status": "Open",
-        "closed_date": "",
-        "city_closed_date": "",
-        "source": "Office field check",
-        "notes_public": "Large pothole near bus lane",
-        "photo_url": "",
-        "days_open": 2
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9271,
-          40.7562
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "PH-002",
+        "id": "69709920",
+        "sr_number": "69709920",
         "status": "Closed",
-        "priority": "Medium",
-        "address": "Skillman Ave & 45th St",
-        "sr_number": "311-000002",
-        "reported_date": "2026-07-01",
-        "office_reported_date": "2026-07-01",
         "city_status": "Closed",
-        "closed_date": "2026-07-08",
-        "city_closed_date": "2026-07-08",
-        "source": "311",
-        "notes_public": "Marked closed after DOT response",
-        "photo_url": "",
-        "days_open": 7
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation determined that this complaint is a duplicate of a previously filed complaint. The original complaint is being addressed.",
+        "reported_date": "2026-07-15",
+        "office_added_date": "2026-07-15",
+        "office_role": "Tracked",
+        "office_source": "Julie Won Office",
+        "city_created_date": "2026-07-14",
+        "closed_date": "2026-07-14",
+        "city_closed_date": "2026-07-14",
+        "days_open": 0,
+        "notes_public": "API test closed pothole",
+        "source": "Julie Won Office",
+        "photo_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9186,
-          40.7464
+          -73.81572034378459,
+          40.67152822871726
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "PH-003",
-        "status": "In Progress",
-        "priority": "Low",
-        "address": "Northern Blvd & 41st Ave",
-        "sr_number": "311-000003",
-        "reported_date": "2026-07-14",
-        "office_reported_date": "2026-07-14",
-        "city_status": "In Progress",
+        "id": "69710374",
+        "sr_number": "69710374",
+        "status": "Open",
+        "city_status": "Open",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
+        "reported_date": "2026-07-15",
+        "office_added_date": "2026-07-15",
+        "office_role": "Tracked",
+        "office_source": "Julie Won Office",
+        "city_created_date": "2026-07-14",
         "closed_date": "",
         "city_closed_date": "",
-        "source": "Sample data",
-        "notes_public": "Sample in-progress pothole for testing",
-        "photo_url": "",
-        "days_open": 1
+        "days_open": 0,
+        "notes_public": "API test open pothole",
+        "source": "Julie Won Office",
+        "photo_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9215,
-          40.752
+          -73.8138899714692,
+          40.671195908451445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69702815",
+        "sr_number": "69702815",
+        "status": "Open",
+        "city_status": "Open",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
+        "reported_date": "2026-07-15",
+        "office_added_date": "2026-07-15",
+        "office_role": "Tracked",
+        "office_source": "Julie Won Office",
+        "city_created_date": "2026-07-14",
+        "closed_date": "",
+        "city_closed_date": "",
+        "days_open": 0,
+        "notes_public": "API test open pothole",
+        "source": "Julie Won Office",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81206681939685,
+          40.67086631559951
         ]
       }
     }
