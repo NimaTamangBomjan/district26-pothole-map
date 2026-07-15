@@ -4,8 +4,78 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "69709920",
-        "sr_number": "69709920",
+        "id": "69707350",
+        "sr_number": "69707350",
+        "status": "Open",
+        "city_status": "Open",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
+        "reported_date": "2026-07-15",
+        "office_added_date": "2026-07-15",
+        "office_role": "Tracked",
+        "office_source": "Julie Won Office",
+        "city_created_date": "2026-07-13",
+        "closed_date": "",
+        "city_closed_date": "",
+        "days_open": 0,
+        "notes_public": "District 26 pothole test",
+        "source": "Julie Won Office",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92615239304685,
+          40.74402880506637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69699888",
+        "sr_number": "69699888",
+        "status": "Open",
+        "city_status": "Open",
+        "priority": "Medium",
+        "address": "",
+        "borough": "QUEENS",
+        "agency": "DOT",
+        "agency_name": "Department of Transportation",
+        "complaint_type": "Street Condition",
+        "descriptor": "Pothole",
+        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
+        "reported_date": "2026-07-15",
+        "office_added_date": "2026-07-15",
+        "office_role": "Tracked",
+        "office_source": "Julie Won Office",
+        "city_created_date": "2026-07-13",
+        "closed_date": "",
+        "city_closed_date": "",
+        "days_open": 0,
+        "notes_public": "District 26 pothole test",
+        "source": "Julie Won Office",
+        "photo_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92913642296949,
+          40.76822836158281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "69709923",
+        "sr_number": "69709923",
         "status": "Closed",
         "city_status": "Closed",
         "priority": "Medium",
@@ -20,89 +90,19 @@
         "office_added_date": "2026-07-15",
         "office_role": "Tracked",
         "office_source": "Julie Won Office",
-        "city_created_date": "2026-07-14",
-        "closed_date": "2026-07-14",
-        "city_closed_date": "2026-07-14",
+        "city_created_date": "2026-07-13",
+        "closed_date": "2026-07-13",
+        "city_closed_date": "2026-07-13",
         "days_open": 0,
-        "notes_public": "API test closed pothole",
+        "notes_public": "District 26 pothole test",
         "source": "Julie Won Office",
         "photo_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.81572034378459,
-          40.67152822871726
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "69710374",
-        "sr_number": "69710374",
-        "status": "Open",
-        "city_status": "Open",
-        "priority": "Medium",
-        "address": "",
-        "borough": "QUEENS",
-        "agency": "DOT",
-        "agency_name": "Department of Transportation",
-        "complaint_type": "Street Condition",
-        "descriptor": "Pothole",
-        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
-        "reported_date": "2026-07-15",
-        "office_added_date": "2026-07-15",
-        "office_role": "Tracked",
-        "office_source": "Julie Won Office",
-        "city_created_date": "2026-07-14",
-        "closed_date": "",
-        "city_closed_date": "",
-        "days_open": 0,
-        "notes_public": "API test open pothole",
-        "source": "Julie Won Office",
-        "photo_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8138899714692,
-          40.671195908451445
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "69702815",
-        "sr_number": "69702815",
-        "status": "Open",
-        "city_status": "Open",
-        "priority": "Medium",
-        "address": "",
-        "borough": "QUEENS",
-        "agency": "DOT",
-        "agency_name": "Department of Transportation",
-        "complaint_type": "Street Condition",
-        "descriptor": "Pothole",
-        "resolution_description": "The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.",
-        "reported_date": "2026-07-15",
-        "office_added_date": "2026-07-15",
-        "office_role": "Tracked",
-        "office_source": "Julie Won Office",
-        "city_created_date": "2026-07-14",
-        "closed_date": "",
-        "city_closed_date": "",
-        "days_open": 0,
-        "notes_public": "API test open pothole",
-        "source": "Julie Won Office",
-        "photo_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.81206681939685,
-          40.67086631559951
+          -73.90708562471892,
+          40.76823739184279
         ]
       }
     }
