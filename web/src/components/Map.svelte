@@ -7,8 +7,8 @@
   import { cssVar } from '../lib/map/tokens';
   import { dataUrl } from '../lib/config';
   import { get } from 'svelte/store';
-  import { mapStore, visibleLayers, hoveredZip, selectedZip, view } from '../stores';
-  import { addDataLayers, applyLayerVisibility } from '../lib/map/dataLayers';
+  import { mapStore, visibleLayers, potholeFilter, hoveredZip, selectedZip, view } from '../stores';
+  import { addDataLayers, applyLayerVisibility, applyPotholeFilter } from '../lib/map/dataLayers';
   import { registerPointPopups } from '../lib/map/popups';
   import { LAYERS } from '../lib/layers';
   import { ZCTA_LABEL_POINTS, DISTRICT_LABEL_POINT } from '../lib/map/labelPoints';
@@ -69,6 +69,7 @@
   let layersReady = false;
   let currentVisible = new Set<string>();
   let unsub: (() => void) | undefined;
+  let potholeFilterUnsub: (() => void) | undefined;
   let hoverUnsub: (() => void) | undefined;
   let selectUnsub: (() => void) | undefined;
   let viewUnsub: (() => void) | undefined;
@@ -225,6 +226,7 @@
       registerPointPopups(map!);
       layersReady = true;
       applyLayerVisibility(map!, currentVisible);
+      applyPotholeFilter(map!, get(potholeFilter));
       // Apply current selection/view state now that the layers exist.
       applySelected(map!, visiblySelected());
       applyCouncilVisibility(map!, get(view));
@@ -244,6 +246,12 @@
       if (map && layersReady) {
         applyLayerVisibility(map, v);
         applyFillGate(map); // re-evaluate the highlight-fill gate (#1)
+      }
+    });
+
+    potholeFilterUnsub = potholeFilter.subscribe((mode) => {
+      if (map && layersReady) {
+        applyPotholeFilter(map, mode);
       }
     });
 
@@ -274,6 +282,7 @@
 
   onDestroy(() => {
     unsub?.();
+    potholeFilterUnsub?.();
     hoverUnsub?.();
     selectUnsub?.();
     viewUnsub?.();

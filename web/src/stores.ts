@@ -24,6 +24,9 @@ const DEFAULT_VISIBLE = new Set<string>([
 ]);
 export const visibleLayers = writable<Set<string>>(DEFAULT_VISIBLE);
 
+export type PotholeFilter = 'all' | 'office';
+export const potholeFilter = writable<PotholeFilter>('all');
+
 /** Which modal is open (one at a time): the mobile Layers sheet or About. */
 export type ActiveModal = 'layers' | 'about' | null;
 export const activeModal = writable<ActiveModal>(null);

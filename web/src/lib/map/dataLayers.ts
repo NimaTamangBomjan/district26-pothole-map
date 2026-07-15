@@ -43,6 +43,24 @@ const FILL_DRAW_ORDER = [
 const sourceId = (l: LayerDef) => `src-${l.id}`;
 export const layerId = (l: LayerDef) => `lyr-${l.id}`;
 
+export type PotholeFilterMode = 'all' | 'office';
+
+export function applyPotholeFilter(map: Map, mode: PotholeFilterMode): void {
+  const potholeLayerId = 'lyr-potholes';
+
+  if (!map.getLayer(potholeLayerId)) return;
+
+  if (mode === 'office') {
+    map.setFilter(potholeLayerId, [
+      'any',
+      ['==', 'office_tracked', true],
+      ['==', 'office_tracked', 'true']
+    ] as any);
+  } else {
+    map.setFilter(potholeLayerId, ['has', 'sr_number'] as any);
+  }
+}
+
 export async function addDataLayers(map: Map): Promise<void> {
   await ensureIconFont();
 

@@ -54,6 +54,9 @@ export const POPUP_FIELDS: Record<string, PopupField[]> = {
     { key: 'reported_date', label: '311 Created Date' },
     { key: 'closed_date', label: 'Closed Date', hideWhenEmpty: true },
     { key: 'source', label: 'Source' },
+    { key: 'office_source', label: 'Office Tracked By', hideWhenEmpty: true },
+    { key: 'office_role', label: 'Office Role', hideWhenEmpty: true },
+    { key: 'office_added_date', label: 'Office Added Date', hideWhenEmpty: true },
     { key: 'notes_public', label: 'Notes', hideWhenEmpty: true }
   ],
   cso: [

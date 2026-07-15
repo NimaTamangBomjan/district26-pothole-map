@@ -6,7 +6,7 @@
   import { INDICATORS } from '../../lib/indicators';
   import { formatStat } from '../../lib/format';
   import { DISTRICT_CONTEXT } from '../../lib/copy';
-  import { districtAttrs, attrsLoading } from '../../stores';
+  import { districtAttrs, attrsLoading, visibleLayers, potholeFilter } from '../../stores';
 
   type PotholeStats = {
     total: number;
@@ -22,6 +22,18 @@
 
   let potholeStats: PotholeStats | null = null;
   let trackerExpanded = false;
+
+  type PotholeMapFilter = 'all' | 'office';
+
+  function showPotholes(mode: PotholeMapFilter) {
+    potholeFilter.set(mode);
+
+    visibleLayers.update((layers) => {
+      const next = new Set(layers);
+      next.add('potholes');
+      return next;
+    });
+  }
 
   function normalizeStatus(value: unknown) {
     return String(value ?? '').trim().toLowerCase();
@@ -155,6 +167,27 @@
           <StatRow label="Office Tracked" value={String(potholeStats.officeTracked)} />
         {/if}
         <StatRow label="Date Range" value={potholeStats ? formatDateRange(potholeStats) : '—'} />
+
+        <div class="pothole-filter-actions" aria-label="Pothole map filter">
+          <button
+            type="button"
+            class:active={$potholeFilter === 'all'}
+            aria-pressed={$potholeFilter === 'all'}
+            onclick={() => showPotholes('all')}
+          >
+            Show All 311
+          </button>
+
+          <button
+            type="button"
+            class:active={$potholeFilter === 'office'}
+            aria-pressed={$potholeFilter === 'office'}
+            disabled={!potholeStats || potholeStats.officeTracked === 0}
+            onclick={() => showPotholes('office')}
+          >
+            Show Office Only
+          </button>
+        </div>
       </div>
     {/if}
   </div>
@@ -213,6 +246,35 @@
   .tracker-details {
     padding-left: 16px;
     border-left: 0.5px solid var(--color-on-surface-secondary);
+  }
+
+  .pothole-filter-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  .pothole-filter-actions button {
+    flex: 1;
+    border: 0.5px solid var(--color-on-surface-secondary);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-on-surface-primary);
+    font: inherit;
+    font-size: 11px;
+    padding: 5px 8px;
+    cursor: pointer;
+  }
+
+  .pothole-filter-actions button.active {
+    border-color: var(--color-on-surface-beta-blue);
+    background: color-mix(in srgb, var(--color-on-surface-beta-blue) 10%, transparent);
+  }
+
+  .pothole-filter-actions button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
   }
 
   .context {
