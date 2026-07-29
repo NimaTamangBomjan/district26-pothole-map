@@ -1,0 +1,4671 @@
+{
+  "type": "FeatureCollection",
+  "name": "District 26 DOT Office Potholes",
+  "metadata": {
+    "source": "District 26 office DOT submissions",
+    "geocoder": "NYC Geoclient / Geosupport",
+    "district_validation": "Official NYC Council District 26 boundary and Geoclient district field",
+    "records": 137,
+    "held_for_review": 28
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926152,
+          40.744029
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026194056",
+        "dq_number": "DQ2026194056",
+        "reference_number": "DQ2026194056",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 39TH STREET, QUEENS, NY",
+        "official_location": "39 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard/39th street",
+        "reported": "2026-07-13",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041572",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925185,
+          40.743919
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195025",
+        "dq_number": "DQ2026195025",
+        "reference_number": "DQ2026195025",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 39TH PLACE, QUEENS, NY",
+        "official_location": "39 PLACE & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard/39th PL",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041574",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924258,
+          40.743808
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195026",
+        "dq_number": "DQ2026195026",
+        "reference_number": "DQ2026195026",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 40TH STREET, QUEENS, NY",
+        "official_location": "40 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard/40th Street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041628",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926152,
+          40.744029
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195035",
+        "dq_number": "DQ2026195035",
+        "reference_number": "DQ2026195035",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 39TH STREET, QUEENS, NY",
+        "official_location": "39 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 39th street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041572",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914985,
+          40.742731
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195037",
+        "dq_number": "DQ2026195037",
+        "reference_number": "DQ2026195037",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 50TH STREET, QUEENS, NY",
+        "official_location": "50 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 50th street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041141",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912892,
+          40.742483
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195038",
+        "dq_number": "DQ2026195038",
+        "reference_number": "DQ2026195038",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",
+        "official_location": "52 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 52nd street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041185",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912892,
+          40.742483
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195039",
+        "dq_number": "DQ2026195039",
+        "reference_number": "DQ2026195039",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",
+        "official_location": "52 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 52nd street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041185",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910157,
+          40.742171
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195041",
+        "dq_number": "DQ2026195041",
+        "reference_number": "DQ2026195041",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 55TH STREET, QUEENS, NY",
+        "official_location": "55 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 55th street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041262",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912892,
+          40.742483
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195042",
+        "dq_number": "DQ2026195042",
+        "reference_number": "DQ2026195042",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",
+        "official_location": "52 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 52nd street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041185",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912892,
+          40.742483
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195043",
+        "dq_number": "DQ2026195043",
+        "reference_number": "DQ2026195043",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",
+        "official_location": "52 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 52nd street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041185",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895851,
+          40.740273
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195045",
+        "dq_number": "DQ2026195045",
+        "reference_number": "DQ2026195045",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 69TH STREET, QUEENS, NY",
+        "official_location": "69 STREET & QUEENS BOULEVARD",
+        "original_location": "69st and Queens Blvd intersection",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045500",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93359,
+          40.744734
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195048",
+        "dq_number": "DQ2026195048",
+        "reference_number": "DQ2026195048",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & VAN DAM STREET, QUEENS, NY",
+        "official_location": "THOMSON AVENUE & VAN DAM STREET",
+        "original_location": "Thomson Avenue/Van Dam Street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041447",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93359,
+          40.744734
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195054",
+        "dq_number": "DQ2026195054",
+        "reference_number": "DQ2026195054",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & VAN DAM STREET (CROSSWALK), QUEENS, NY",
+        "official_location": "THOMSON AVENUE & VAN DAM STREET",
+        "original_location": "Thomson Avenue/Van Dam Street/ Crosswalk",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041447",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93635,
+          40.74507
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201026",
+        "dq_number": "DQ2026201026",
+        "reference_number": "DQ2026201026",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & 30TH PLACE, QUEENS, NY",
+        "official_location": "30 PLACE & THOMSON AVENUE",
+        "original_location": "Thomson Av/ 30th PL",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041367",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937259,
+          40.745177
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201029",
+        "dq_number": "DQ2026201029",
+        "reference_number": "DQ2026201029",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & 30TH STREET, QUEENS, NY",
+        "official_location": "30 STREET & THOMSON AVENUE",
+        "original_location": "Thomson Av/ 30th Street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041365",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.746135
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201031",
+        "dq_number": "DQ2026201031",
+        "reference_number": "DQ2026201031",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",
+        "official_location": "44 DRIVE & THOMSON AVENUE",
+        "original_location": "Thomson Avenue/44th Drive",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041286",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90158,
+          40.741131
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201042",
+        "dq_number": "DQ2026201042",
+        "reference_number": "DQ2026201042",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 64TH STREET, QUEENS, NY",
+        "official_location": "64 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd/ 64th St",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045290",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90057,
+          40.74101
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201043",
+        "dq_number": "DQ2026201043",
+        "reference_number": "DQ2026201043",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 65TH STREET, QUEENS, NY",
+        "official_location": "65 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd/ 65th St",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045292",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895242,
+          40.740165
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201049",
+        "dq_number": "DQ2026201049",
+        "reference_number": "DQ2026201049",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 45TH AVENUE, QUEENS, NY",
+        "official_location": "45 AVENUE & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd/ 45th Ave",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045502",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911507,
+          40.744472
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202033",
+        "dq_number": "DQ2026202033",
+        "reference_number": "DQ2026202033",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "ROOSEVELT AVENUE & 53RD STREET, QUEENS, NY",
+        "official_location": "53 STREET & ROOSEVELT AVENUE",
+        "original_location": "ROOSEVELT AVENUE/53 STREET",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041818",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936284,
+          40.734994
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202035",
+        "dq_number": "DQ2026202035",
+        "reference_number": "DQ2026202035",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "GREENPOINT AVENUE & STARR AVENUE, QUEENS, NY",
+        "official_location": "GREENPOINT AVENUE & STARR AVENUE",
+        "original_location": "intersection of Greenpoint and Star Ave",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040692",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934779,
+          40.735553
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202036",
+        "dq_number": "DQ2026202036",
+        "reference_number": "DQ2026202036",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "GREENPOINT AVENUE & BRADLEY AVENUE, QUEENS, NY",
+        "official_location": "BRADLEY AVENUE & GREENPOINT AVENUE",
+        "original_location": "GREENPOINT AVENUE/BRADLEY AVENUE",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040745",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926158,
+          40.739064
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202038",
+        "dq_number": "DQ2026202038",
+        "reference_number": "DQ2026202038",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "GREENPOINT AVENUE & 39TH PLACE, QUEENS, NY",
+        "official_location": "39 PLACE & GREENPOINT AVENUE",
+        "original_location": "Intersection of greenpoint ave and 39th pl",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040888",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914836,
+          40.743456
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202041",
+        "dq_number": "DQ2026202041",
+        "reference_number": "DQ2026202041",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "ROOSEVELT AVENUE & 50TH STREET, QUEENS, NY",
+        "official_location": "50 STREET & ROOSEVELT AVENUE",
+        "original_location": "Intersection of Roosevelt ave and 50th street",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041758",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903389,
+          40.745596
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202046",
+        "dq_number": "DQ2026202046",
+        "reference_number": "DQ2026202046",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "ROOSEVELT AVENUE & 61ST STREET, QUEENS, NY",
+        "official_location": "61 STREET & ROOSEVELT AVENUE",
+        "original_location": "ROOSEVELT AVENUE/61 STREET",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046256",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.899029,
+          40.746048
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202047",
+        "dq_number": "DQ2026202047",
+        "reference_number": "DQ2026202047",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "ROOSEVELT AVENUE & 65TH STREET, QUEENS, NY",
+        "official_location": "65 STREET & ROOSEVELT AVENUE",
+        "original_location": "ROOSEVELT AVENUE/65 STREET",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046356",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908406,
+          40.745153
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202048",
+        "dq_number": "DQ2026202048",
+        "reference_number": "DQ2026202048",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "ROOSEVELT AVENUE & SKILLMAN AVENUE, QUEENS, NY",
+        "official_location": "ROOSEVELT AVENUE & SKILLMAN AVENUE",
+        "original_location": "ROOSEVELT AVENUE/SKILLMAN AVENUE",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "9037125",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.746135
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203038",
+        "dq_number": "DQ2026203038",
+        "reference_number": "DQ2026203038",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",
+        "official_location": "44 DRIVE & THOMSON AVENUE",
+        "original_location": "Thomson Avenue/44th Drive",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041286",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.746135
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203041",
+        "dq_number": "DQ2026203041",
+        "reference_number": "DQ2026203041",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",
+        "official_location": "44 DRIVE & THOMSON AVENUE",
+        "original_location": "Thomson Avenue/44th Drive",
+        "reported": "2026-07-14",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041286",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949678,
+          40.744083
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201068",
+        "dq_number": "DQ2026201068",
+        "reference_number": "DQ2026201068",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & 47TH ROAD, QUEENS, NY",
+        "official_location": "47 ROAD & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/47th Road",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023092",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943714,
+          40.7466
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201069",
+        "dq_number": "DQ2026201069",
+        "reference_number": "DQ2026201069",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & 45TH AVENUE, QUEENS, NY",
+        "official_location": "45 AVENUE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/45th Avenue",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023193",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944018,
+          40.746479
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201072",
+        "dq_number": "DQ2026201072",
+        "reference_number": "DQ2026201072",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & COURT SQUARE, QUEENS, NY",
+        "official_location": "COURT SQUARE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/ Court Square",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023190",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942382,
+          40.747121
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026201073",
+        "dq_number": "DQ2026201073",
+        "reference_number": "DQ2026201073",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & 44TH DRIVE, QUEENS, NY",
+        "official_location": "44 DRIVE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/44th Drive",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041285",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945649,
+          40.745819
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202026",
+        "dq_number": "DQ2026202026",
+        "reference_number": "DQ2026202026",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & DAVIS STREET, QUEENS, NY",
+        "official_location": "DAVIS STREET & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/ Davis Street",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023183",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944018,
+          40.746479
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202027",
+        "dq_number": "DQ2026202027",
+        "reference_number": "DQ2026202027",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & COURT SQUARE, QUEENS, NY",
+        "official_location": "COURT SQUARE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/ Court Square",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023190",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944018,
+          40.746479
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202031",
+        "dq_number": "DQ2026202031",
+        "reference_number": "DQ2026202031",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & COURT SQUARE, QUEENS, NY",
+        "official_location": "COURT SQUARE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/ Court Square",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023190",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951801,
+          40.743016
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202045",
+        "dq_number": "DQ2026202045",
+        "reference_number": "DQ2026202045",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & 49TH AVENUE, QUEENS, NY",
+        "official_location": "49 AVENUE & JACKSON AVENUE",
+        "original_location": "Jackson Avenue/ 49th avenue",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0022273",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939736,
+          40.748066
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202052",
+        "dq_number": "DQ2026202052",
+        "reference_number": "DQ2026202052",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & QUEENS STREET, QUEENS, NY",
+        "official_location": "JACKSON AVENUE & QUEENS STREET",
+        "original_location": "Jackson Avenue/ Queens Street",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041299",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936791,
+          40.759884
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202072",
+        "dq_number": "DQ2026202072",
+        "reference_number": "DQ2026202072",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 36TH AVENUE, QUEENS, NY",
+        "official_location": "21 STREET & 36 AVENUE",
+        "original_location": "21st Street/36th Ave",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041416",
+        "segment_id": null,
+        "zip_code": "11106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937918,
+          40.758707
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202073",
+        "dq_number": "DQ2026202073",
+        "reference_number": "DQ2026202073",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 37TH AVENUE, QUEENS, NY",
+        "official_location": "21 STREET & 37 AVENUE",
+        "original_location": "21st Street/37th Ave",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041410",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94243,
+          40.753996
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202076",
+        "dq_number": "DQ2026202076",
+        "reference_number": "DQ2026202076",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 41ST AVENUE, QUEENS, NY",
+        "official_location": "21 STREET & 41 AVENUE",
+        "original_location": "21st Street/41st Ave",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041322",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944244,
+          40.752098
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202078",
+        "dq_number": "DQ2026202078",
+        "reference_number": "DQ2026202078",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & QUEENS PLAZA SOUTH, QUEENS, NY",
+        "official_location": "21 STREET & QUEENS PLAZA SOUTH",
+        "original_location": "21st Street/Queens Plaza S",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "POSSIBLE_MATCH",
+        "geoclient_level": "1",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023216",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946664,
+          40.749502
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202080",
+        "dq_number": "DQ2026202080",
+        "reference_number": "DQ2026202080",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 44TH AVENUE, QUEENS, NY",
+        "official_location": "21 STREET & 44 AVENUE",
+        "original_location": "21st Street/44th Ave",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023197",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947109,
+          40.748852
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202082",
+        "dq_number": "DQ2026202082",
+        "reference_number": "DQ2026202082",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 44TH ROAD, QUEENS, NY",
+        "official_location": "21 STREET & 44 ROAD",
+        "original_location": "21st Street/44th Rd",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023118",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949232,
+          40.742524
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202083",
+        "dq_number": "DQ2026202083",
+        "reference_number": "DQ2026202083",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "21ST STREET & 49TH AVENUE, QUEENS, NY",
+        "official_location": "21 STREET & 49 AVENUE",
+        "original_location": "21st Street/49th Ave",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0022365",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941454,
+          40.74745
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203050",
+        "dq_number": "DQ2026203050",
+        "reference_number": "DQ2026203050",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & PURVES STREET, QUEENS, NY",
+        "official_location": "JACKSON AVENUE & PURVES STREET",
+        "original_location": "Jackson Avenue/Purves Street",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041287",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939736,
+          40.748066
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203051",
+        "dq_number": "DQ2026203051",
+        "reference_number": "DQ2026203051",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & QUEENS STREET, QUEENS, NY",
+        "official_location": "JACKSON AVENUE & QUEENS STREET",
+        "original_location": "Jackson Avenue/ Queens Stret",
+        "reported": "2026-07-15",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041299",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923917,
+          40.745545
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202037",
+        "dq_number": "DQ2026202037",
+        "reference_number": "DQ2026202037",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 40TH STREET, QUEENS, NY",
+        "official_location": "40 STREET & 43 AVENUE",
+        "original_location": "43rd ave 40th st",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041629",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924844,
+          40.745653
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026202039",
+        "dq_number": "DQ2026202039",
+        "reference_number": "DQ2026202039",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 39TH PLACE, QUEENS, NY",
+        "official_location": "39 PLACE & 43 AVENUE",
+        "original_location": "43rd ave 39th place",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041627",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920204,
+          40.745115
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203039",
+        "dq_number": "DQ2026203039",
+        "reference_number": "DQ2026203039",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 44TH STREET, QUEENS, NY",
+        "official_location": "43 AVENUE & 44 STREET",
+        "original_location": "43rd ave 44th street",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041696",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92162,
+          40.753029
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204038",
+        "dq_number": "DQ2026204038",
+        "reference_number": "DQ2026204038",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "42ND STREET & NORTHERN BOULEVARD, QUEENS, NY",
+        "official_location": "42 STREET & NORTHERN BOULEVARD",
+        "original_location": "42nd street and northern",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041652",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92162,
+          40.753029
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204040",
+        "dq_number": "DQ2026204040",
+        "reference_number": "DQ2026204040",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "42ND STREET & NORTHERN BOULEVARD, QUEENS, NY",
+        "official_location": "42 STREET & NORTHERN BOULEVARD",
+        "original_location": "42nd street and northern",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041652",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912571,
+          40.753305
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204047",
+        "dq_number": "DQ2026204047",
+        "reference_number": "DQ2026204047",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "NORTHERN BOULEVARD & 50TH STREET, QUEENS, NY",
+        "official_location": "50 STREET & NORTHERN BOULEVARD",
+        "original_location": "Northern Boulevard and 50th street",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041834",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910233,
+          40.752977
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204048",
+        "dq_number": "DQ2026204048",
+        "reference_number": "DQ2026204048",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "NORTHERN BOULEVARD & 51ST STREET, QUEENS, NY",
+        "official_location": "51 STREET & NORTHERN BOULEVARD",
+        "original_location": "Northern boulevard and 51st street",
+        "reported": "2026-07-20",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041911",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949467,
+          40.751455
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204067",
+        "dq_number": "DQ2026204067",
+        "reference_number": "DQ2026204067",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD ROAD & 10TH STREET, QUEENS, NY",
+        "official_location": "10 STREET & 43 ROAD",
+        "original_location": "43rd road 10th street",
+        "reported": "2026-07-23",
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023120",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911758,
+          40.748482
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205028",
+        "dq_number": "DQ2026205028",
+        "reference_number": "DQ2026205028",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39-08 52ND STREET, QUEENS, NY",
+        "official_location": "39-08 52 STREET",
+        "original_location": "39-08 52nd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0106894",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904985,
+          40.747807
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205032",
+        "dq_number": "DQ2026205032",
+        "reference_number": "DQ2026205032",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "58-09 39TH AVENUE, QUEENS, NY",
+        "official_location": "58-09 39 AVENUE",
+        "original_location": "58-09 39th Ave",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0075368",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89648,
+          40.74237
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205033",
+        "dq_number": "DQ2026205033",
+        "reference_number": "DQ2026205033",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "42-21 68TH STREET, QUEENS, NY",
+        "official_location": "42-21 68 STREET",
+        "original_location": "42-21 68th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0074097",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903226,
+          40.741347
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205036",
+        "dq_number": "DQ2026205036",
+        "reference_number": "DQ2026205036",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "61-10 QUEENS BOULEVARD, QUEENS, NY",
+        "official_location": "61-10 QUEENS BOULEVARD",
+        "original_location": "61-10 Queens Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0267077",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903107,
+          40.741333
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205037",
+        "dq_number": "DQ2026205037",
+        "reference_number": "DQ2026205037",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "61-16 QUEENS BOULEVARD, QUEENS, NY",
+        "official_location": "61-16 QUEENS BOULEVARD",
+        "original_location": "61-16 Queens Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0183844",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90844,
+          40.736655
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205040",
+        "dq_number": "DQ2026205040",
+        "reference_number": "DQ2026205040",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "58-25 LAUREL HILL BOULEVARD, QUEENS, NY",
+        "official_location": "58-25 LAUREL HILL BOULEVARD",
+        "original_location": "58-25 Laurel Hl Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067004",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907578,
+          40.741526
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205042",
+        "dq_number": "DQ2026205042",
+        "reference_number": "DQ2026205042",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "46-01 58TH STREET, QUEENS, NY",
+        "official_location": "46-01 58 STREET",
+        "original_location": "46-01 58th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0172534",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911088,
+          40.742273
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205044",
+        "dq_number": "DQ2026205044",
+        "reference_number": "DQ2026205044",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "53-98 QUEENS BOULEVARD, QUEENS, NY",
+        "official_location": "53-98 QUEENS BOULEVARD",
+        "original_location": "53-98 Queens Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0172485",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912892,
+          40.742483
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205047",
+        "dq_number": "DQ2026205047",
+        "reference_number": "DQ2026205047",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",
+        "official_location": "52 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd & 52nd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041185",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913989,
+          40.742615
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205048",
+        "dq_number": "DQ2026205048",
+        "reference_number": "DQ2026205048",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "50-24 QUEENS BOULEVARD, QUEENS, NY",
+        "official_location": "50-24 QUEENS BOULEVARD",
+        "original_location": "50-24 Queens Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0183809",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918873,
+          40.732886
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205049",
+        "dq_number": "DQ2026205049",
+        "reference_number": "DQ2026205049",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "51-82 48TH STREET, QUEENS, NY",
+        "official_location": "51-82 48 STREET",
+        "original_location": "51-82 48th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0116318",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921579,
+          40.732237
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205050",
+        "dq_number": "DQ2026205050",
+        "reference_number": "DQ2026205050",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "53-02 46TH STREET, QUEENS, NY",
+        "official_location": "53-02 46 STREET",
+        "original_location": "53-02 46th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066530",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919182,
+          40.73077
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205051",
+        "dq_number": "DQ2026205051",
+        "reference_number": "DQ2026205051",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "54-12 48TH STREET, QUEENS, NY 11378",
+        "official_location": "54-12 48 STREET",
+        "original_location": "54-12 48th St, Maspeth, NY 11378",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066644",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918594,
+          40.730783
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205052",
+        "dq_number": "DQ2026205052",
+        "reference_number": "DQ2026205052",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48-16 54TH AVENUE, QUEENS, NY",
+        "official_location": "48-16 54 AVENUE",
+        "original_location": "48-16 54th Ave",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066652",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917794,
+          40.729559
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205053",
+        "dq_number": "DQ2026205053",
+        "reference_number": "DQ2026205053",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "54-20 50TH STREET, QUEENS, NY",
+        "official_location": "54-20 50 STREET",
+        "original_location": "54-20 50th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066767",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914346,
+          40.745876
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205055",
+        "dq_number": "DQ2026205055",
+        "reference_number": "DQ2026205055",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "41-13 50TH STREET, QUEENS, NY",
+        "official_location": "41-13 50 STREET",
+        "original_location": "41-13 50th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067949",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91927,
+          40.729502
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205056",
+        "dq_number": "DQ2026205056",
+        "reference_number": "DQ2026205056",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "54-65 48TH STREET, QUEENS, NY",
+        "official_location": "54-65 48 STREET",
+        "original_location": "54-65 48th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066648",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920515,
+          40.726215
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205058",
+        "dq_number": "DQ2026205058",
+        "reference_number": "DQ2026205058",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "56TH ROAD & 48TH STREET, QUEENS, NY",
+        "official_location": "48 STREET & 56 ROAD",
+        "original_location": "56th Rd & 48th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041029",
+        "segment_id": null,
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924468,
+          40.727398
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205059",
+        "dq_number": "DQ2026205059",
+        "reference_number": "DQ2026205059",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "44-11 56TH ROAD, QUEENS, NY 11378",
+        "official_location": "44-11 56 ROAD",
+        "original_location": "44-11 56th Rd, Maspeth, NY 11378",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066455",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925985,
+          40.729098
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205062",
+        "dq_number": "DQ2026205062",
+        "reference_number": "DQ2026205062",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "55-51 43RD STREET, QUEENS, NY",
+        "official_location": "55-51 43 STREET",
+        "original_location": "55-51 43rd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066358",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926109,
+          40.727635
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026205067",
+        "dq_number": "DQ2026205067",
+        "reference_number": "DQ2026205067",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43-40 57TH AVENUE, QUEENS, NY 11378",
+        "official_location": "43-40 57 AVENUE",
+        "original_location": "43-40 57th Ave, Maspeth, NY 11378",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066335",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919111,
+          40.729988
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208015",
+        "dq_number": "DQ2026208015",
+        "reference_number": "DQ2026208015",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "54-30 48TH STREET, QUEENS, NY 11378",
+        "official_location": "54-30 48 STREET",
+        "original_location": "54-30 48th St, Maspeth, NY 11378",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066648",
+        "zip_code": "11378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924279,
+          40.73797
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208016",
+        "dq_number": "DQ2026208016",
+        "reference_number": "DQ2026208016",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "41-08 50TH AVENUE, QUEENS, NY 11104",
+        "official_location": "41-08 50 AVENUE",
+        "original_location": "41-08 50th Ave, Long Island City, NY 11104",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066581",
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926715,
+          40.738252
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208017",
+        "dq_number": "DQ2026208017",
+        "reference_number": "DQ2026208017",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39-18 50TH AVENUE, QUEENS, NY 11104",
+        "official_location": "39-18 50 AVENUE",
+        "original_location": "39-18 50th Ave, Long Island City, NY 11104",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0066394",
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920556,
+          40.743375
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208020",
+        "dq_number": "DQ2026208020",
+        "reference_number": "DQ2026208020",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 44TH STREET, QUEENS, NY",
+        "official_location": "44 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd & 44th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041694",
+        "segment_id": null,
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916843,
+          40.742944
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208023",
+        "dq_number": "DQ2026208023",
+        "reference_number": "DQ2026208023",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 48TH STREET, QUEENS, NY",
+        "official_location": "48 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd & 48th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041133",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915194,
+          40.751172
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208026",
+        "dq_number": "DQ2026208026",
+        "reference_number": "DQ2026208026",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "37TH AVENUE & 48TH STREET, QUEENS, NY",
+        "official_location": "37 AVENUE & 48 STREET",
+        "original_location": "37th Ave & 48th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041770",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939568,
+          40.750051
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208049",
+        "dq_number": "DQ2026208049",
+        "reference_number": "DQ2026208049",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "27-26 QUEENS PLAZA SOUTH, QUEENS, NY",
+        "official_location": "27-26 QUEENS PLAZA SOUTH",
+        "original_location": "27-26 Queens Plaza S",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067129",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947932,
+          40.753255
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208050",
+        "dq_number": "DQ2026208050",
+        "reference_number": "DQ2026208050",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "42-12 10TH STREET, QUEENS, NY",
+        "official_location": "42-12 10 STREET",
+        "original_location": "42-12 10th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0118745",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929456,
+          40.756435
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208051",
+        "dq_number": "DQ2026208051",
+        "reference_number": "DQ2026208051",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "31-32 36TH AVENUE, QUEENS, NY",
+        "official_location": "31-32 36 AVENUE",
+        "original_location": "31-32 36th Ave",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067541",
+        "zip_code": "11106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959161,
+          40.74126
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208053",
+        "dq_number": "DQ2026208053",
+        "reference_number": "DQ2026208053",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "52-37 2ND STREET, QUEENS, NY",
+        "official_location": "52-37 2 STREET",
+        "original_location": "52-37 2nd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "9010039",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957213,
+          40.745549
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208056",
+        "dq_number": "DQ2026208056",
+        "reference_number": "DQ2026208056",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "CENTER BOULEVARD & 47TH ROAD, QUEENS, NY",
+        "official_location": "47 ROAD & CENTER BOULEVARD",
+        "original_location": "Center Blvd & 47th Rd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0106904",
+        "segment_id": null,
+        "zip_code": "11109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931493,
+          40.744639
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208057",
+        "dq_number": "DQ2026208057",
+        "reference_number": "DQ2026208057",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "33-08 QUEENS BOULEVARD, QUEENS, NY 11101",
+        "official_location": "33-08 QUEENS BOULEVARD",
+        "original_location": "33-08 Queens Blvd, Long Island City, NY 11101",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067472",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90555,
+          40.738415
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208064",
+        "dq_number": "DQ2026208064",
+        "reference_number": "DQ2026208064",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48-28 59TH PLACE, QUEENS, NY",
+        "official_location": "48-28 59 PLACE",
+        "original_location": "48-28 59th Pl",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0073698",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939723,
+          40.750117
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208065",
+        "dq_number": "DQ2026208065",
+        "reference_number": "DQ2026208065",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "27-00 QUEENS PLAZA SOUTH, QUEENS, NY 11101",
+        "official_location": "27-00 QUEENS PLAZA SOUTH",
+        "original_location": "27-00 Queens Plaza S, Long Island City, NY 11101",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067129",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897917,
+          40.748495
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208067",
+        "dq_number": "DQ2026208067",
+        "reference_number": "DQ2026208067",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "37TH AVENUE & 65TH STREET, QUEENS, NY",
+        "official_location": "37 AVENUE & 65 STREET",
+        "original_location": "37th Ave & 65th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046360",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898942,
+          40.746237
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208070",
+        "dq_number": "DQ2026208070",
+        "reference_number": "DQ2026208070",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39TH AVENUE & 65TH STREET, QUEENS, NY",
+        "official_location": "39 AVENUE & 65 STREET",
+        "original_location": "39th Ave & 65th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0067057",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901601,
+          40.746909
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208071",
+        "dq_number": "DQ2026208071",
+        "reference_number": "DQ2026208071",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39TH AVENUE & 62ND STREET, QUEENS, NY",
+        "official_location": "39 AVENUE & 62 STREET",
+        "original_location": "39th Ave & 62nd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046275",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90075,
+          40.748841
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208072",
+        "dq_number": "DQ2026208072",
+        "reference_number": "DQ2026208072",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "37-04 62ND STREET, QUEENS, NY 11377",
+        "official_location": "37-04 62 STREET",
+        "original_location": "37-04 62nd St, Flushing, NY 11377",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0075587",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901601,
+          40.746909
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208073",
+        "dq_number": "DQ2026208073",
+        "reference_number": "DQ2026208073",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39TH AVENUE & 62ND STREET, QUEENS, NY",
+        "official_location": "39 AVENUE & 62 STREET",
+        "original_location": "39th Ave & 62nd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046275",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905349,
+          40.747892
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208074",
+        "dq_number": "DQ2026208074",
+        "reference_number": "DQ2026208074",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "39TH AVENUE & 58TH STREET, QUEENS, NY",
+        "official_location": "39 AVENUE & 58 STREET",
+        "original_location": "39th Ave & 58th St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0046165",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915612,
+          40.74322
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208075",
+        "dq_number": "DQ2026208075",
+        "reference_number": "DQ2026208075",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "49-13 ROOSEVELT AVENUE, QUEENS, NY 11104",
+        "official_location": "49-13 ROOSEVELT AVENUE",
+        "original_location": "49-13 Roosevelt Ave, Sunnyside, NY 11104",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067936",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916229,
+          40.746067
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208076",
+        "dq_number": "DQ2026208076",
+        "reference_number": "DQ2026208076",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "41-38 48TH STREET, QUEENS, NY 11104",
+        "official_location": "41-38 48 STREET",
+        "original_location": "41-38 48th St, Sunnyside, NY 11104",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067945",
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916453,
+          40.7429
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208079",
+        "dq_number": "DQ2026208079",
+        "reference_number": "DQ2026208079",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48-02 QUEENS BOULEVARD, QUEENS, NY 11377",
+        "official_location": "48-02 QUEENS BOULEVARD",
+        "original_location": "48-02 Queens Blvd, Woodside, NY 11377",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0172436",
+        "zip_code": "11104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903107,
+          40.741333
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208080",
+        "dq_number": "DQ2026208080",
+        "reference_number": "DQ2026208080",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "62-02 QUEENS BOULEVARD, QUEENS, NY",
+        "official_location": "62-02 QUEENS BOULEVARD",
+        "original_location": "62-02 Queens Blvd",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0183844",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902766,
+          40.737693
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208082",
+        "dq_number": "DQ2026208082",
+        "reference_number": "DQ2026208082",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48-34 63RD STREET, QUEENS, NY 11377",
+        "official_location": "48-34 63 STREET",
+        "original_location": "48-34 63rd St, Flushing, NY 11377",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0130090",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90274,
+          40.737916
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208083",
+        "dq_number": "DQ2026208083",
+        "reference_number": "DQ2026208083",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48-23 63RD STREET, QUEENS, NY",
+        "official_location": "48-23 63 STREET",
+        "original_location": "48-23 63rd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0130089",
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932688,
+          40.744291
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208084",
+        "dq_number": "DQ2026208084",
+        "reference_number": "DQ2026208084",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "45-41 32ND PLACE, QUEENS, NY",
+        "official_location": "45-41 32 PLACE",
+        "original_location": "45-41 32nd Pl",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0106833",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931493,
+          40.744639
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208085",
+        "dq_number": "DQ2026208085",
+        "reference_number": "DQ2026208085",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "33-08 QUEENS BOULEVARD, QUEENS, NY 11101",
+        "official_location": "33-08 QUEENS BOULEVARD",
+        "original_location": "33-08 Queens Blvd, Long Island City, NY 11101",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067472",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931684,
+          40.744669
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208086",
+        "dq_number": "DQ2026208086",
+        "reference_number": "DQ2026208086",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 33RD STREET, QUEENS, NY",
+        "official_location": "33 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Blvd & 33rd St",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041505",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932202,
+          40.753582
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026208087",
+        "dq_number": "DQ2026208087",
+        "reference_number": "DQ2026208087",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "38-06 31ST STREET, QUEENS, NY 11101",
+        "official_location": "38-06 31 STREET",
+        "original_location": "38-06 31st St, Long Island City, NY 11101",
+        "reported": "2026-07-24",
+        "status": "Open",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-address-point",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "address",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": null,
+        "segment_id": "0067509",
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911943,
+          40.742383
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195044",
+        "dq_number": "DQ2026195044",
+        "reference_number": "DQ2026195044",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 53RD STREET, QUEENS, NY",
+        "official_location": "53 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boukevard 53rd street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041186",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911045,
+          40.742276
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195047",
+        "dq_number": "DQ2026195047",
+        "reference_number": "DQ2026195047",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 54TH STREET, QUEENS, NY",
+        "official_location": "54 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 54th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041187",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910157,
+          40.742171
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195050",
+        "dq_number": "DQ2026195050",
+        "reference_number": "DQ2026195050",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 55TH STREET, QUEENS, NY",
+        "official_location": "55 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 55th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041262",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908302,
+          40.74196
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195052",
+        "dq_number": "DQ2026195052",
+        "reference_number": "DQ2026195052",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 57TH STREET, QUEENS, NY",
+        "official_location": "57 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Bouoevard 57th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041264",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907505,
+          40.741864
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195053",
+        "dq_number": "DQ2026195053",
+        "reference_number": "DQ2026195053",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 58TH STREET, QUEENS, NY",
+        "official_location": "58 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 58th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041266",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90459,
+          40.741521
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026195055",
+        "dq_number": "DQ2026195055",
+        "reference_number": "DQ2026195055",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",
+        "official_location": "60 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 60th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045183",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902565,
+          40.741281
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196051",
+        "dq_number": "DQ2026196051",
+        "reference_number": "DQ2026196051",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 63RD STREET, QUEENS, NY",
+        "official_location": "63 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 63rd",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045287",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902565,
+          40.741281
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196053",
+        "dq_number": "DQ2026196053",
+        "reference_number": "DQ2026196053",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 63RD STREET, QUEENS, NY",
+        "official_location": "63 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens boulevard 63rd street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045287",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90057,
+          40.74101
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196054",
+        "dq_number": "DQ2026196054",
+        "reference_number": "DQ2026196054",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 65TH STREET, QUEENS, NY",
+        "official_location": "65 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens boulevard 65th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045292",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895851,
+          40.740273
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196055",
+        "dq_number": "DQ2026196055",
+        "reference_number": "DQ2026196055",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 69TH STREET, QUEENS, NY",
+        "official_location": "69 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens boulevard 69th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045500",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90459,
+          40.741521
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196056",
+        "dq_number": "DQ2026196056",
+        "reference_number": "DQ2026196056",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",
+        "official_location": "60 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 60th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045183",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90459,
+          40.741521
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026196058",
+        "dq_number": "DQ2026196058",
+        "reference_number": "DQ2026196058",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",
+        "official_location": "60 STREET & QUEENS BOULEVARD",
+        "original_location": "Queens Boulevard 60th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0045183",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913705,
+          40.744364
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203045",
+        "dq_number": "DQ2026203045",
+        "reference_number": "DQ2026203045",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 51ST STREET, QUEENS, NY",
+        "official_location": "43 AVENUE & 51 STREET",
+        "original_location": "43rd ave 51st street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041816",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913705,
+          40.744364
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203046",
+        "dq_number": "DQ2026203046",
+        "reference_number": "DQ2026203046",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 51ST STREET, QUEENS, NY",
+        "official_location": "43 AVENUE & 51 STREET",
+        "original_location": "43rd ave 51st st",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041816",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914636,
+          40.744471
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026203047",
+        "dq_number": "DQ2026203047",
+        "reference_number": "DQ2026203047",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD AVENUE & 50TH STREET, QUEENS, NY",
+        "official_location": "43 AVENUE & 50 STREET",
+        "original_location": "43rd ave 50th st",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041759",
+        "segment_id": null,
+        "zip_code": "11377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949467,
+          40.751455
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204068",
+        "dq_number": "DQ2026204068",
+        "reference_number": "DQ2026204068",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "43RD ROAD & 10TH STREET, QUEENS, NY",
+        "official_location": "10 STREET & 43 ROAD",
+        "original_location": "43rd road 10th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023120",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950511,
+          40.750248
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204070",
+        "dq_number": "DQ2026204070",
+        "reference_number": "DQ2026204070",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "44TH AVENUE & 10TH STREET, QUEENS, NY",
+        "official_location": "10 STREET & 44 AVENUE",
+        "original_location": "44thave 10th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023036",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956504,
+          40.747621
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204071",
+        "dq_number": "DQ2026204071",
+        "reference_number": "DQ2026204071",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "46TH AVENUE & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "46 AVENUE & CENTER BOULEVARD",
+        "original_location": "46th ave center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "9035424",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93301,
+          40.742768
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204077",
+        "dq_number": "DQ2026204077",
+        "reference_number": "DQ2026204077",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "47TH AVENUE & 32ND PLACE, QUEENS, NY",
+        "official_location": "32 PLACE & 47 AVENUE",
+        "original_location": "47th ave 32nd place",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040778",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956649,
+          40.746164
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204078",
+        "dq_number": "DQ2026204078",
+        "reference_number": "DQ2026204078",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "47TH AVENUE & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "47 AVENUE & CENTER BOULEVARD",
+        "original_location": "47th ave center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0106905",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955513,
+          40.745946
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204079",
+        "dq_number": "DQ2026204079",
+        "reference_number": "DQ2026204079",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "47TH AVENUE & 5TH STREET, QUEENS, NY",
+        "official_location": "5 STREET & 47 AVENUE",
+        "original_location": "47th avenue 5th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0022942",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957213,
+          40.745549
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204080",
+        "dq_number": "DQ2026204080",
+        "reference_number": "DQ2026204080",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "47TH ROAD & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "47 ROAD & CENTER BOULEVARD",
+        "original_location": "47th road center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0106904",
+        "segment_id": null,
+        "zip_code": "11109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957213,
+          40.745549
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204081",
+        "dq_number": "DQ2026204081",
+        "reference_number": "DQ2026204081",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "47TH ROAD & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "47 ROAD & CENTER BOULEVARD",
+        "original_location": "47th road center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0106904",
+        "segment_id": null,
+        "zip_code": "11109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93338,
+          40.740921
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204082",
+        "dq_number": "DQ2026204082",
+        "reference_number": "DQ2026204082",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48TH AVENUE & 32ND PLACE, QUEENS, NY",
+        "official_location": "32 PLACE & 48 AVENUE",
+        "original_location": "48th avenue 32nd place",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040777",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957855,
+          40.744874
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204083",
+        "dq_number": "DQ2026204083",
+        "reference_number": "DQ2026204083",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "48TH AVENUE & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "48 AVENUE & CENTER BOULEVARD",
+        "original_location": "48th avenue center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0022862",
+        "segment_id": null,
+        "zip_code": "11109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.746135
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204084",
+        "dq_number": "DQ2026204084",
+        "reference_number": "DQ2026204084",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "COURT SQUARE & 44TH DRIVE, QUEENS, NY",
+        "official_location": "44 DRIVE & COURT SQUARE",
+        "original_location": "courth square 44th drive",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0041286",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93371,
+          40.739272
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204085",
+        "dq_number": "DQ2026204085",
+        "reference_number": "DQ2026204085",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "HUNTERS POINT AVENUE & 32ND PLACE, QUEENS, NY",
+        "official_location": "32 PLACE & HUNTERS POINT AVENUE",
+        "original_location": "hunters point ave 32nd place",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0040771",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944018,
+          40.746479
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204086",
+        "dq_number": "DQ2026204086",
+        "reference_number": "DQ2026204086",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & COURT SQUARE, QUEENS, NY",
+        "official_location": "COURT SQUARE & JACKSON AVENUE",
+        "original_location": "jackson ave court square",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023190",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944018,
+          40.746479
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204087",
+        "dq_number": "DQ2026204087",
+        "reference_number": "DQ2026204087",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "JACKSON AVENUE & COURT SQUARE, QUEENS, NY",
+        "official_location": "COURT SQUARE & JACKSON AVENUE",
+        "original_location": "jackson ave court square",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "0023190",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954919,
+          40.747892
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204089",
+        "dq_number": "DQ2026204089",
+        "reference_number": "DQ2026204089",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "NORTH BASIN ROAD & 5TH STREET, QUEENS, NY",
+        "official_location": "NORTH BASIN ROAD & 5 STREET",
+        "original_location": "n basin road 5th street",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "9035390",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956853,
+          40.748513
+        ]
+      },
+      "properties": {
+        "id": "dot-DQ2026204090",
+        "dq_number": "DQ2026204090",
+        "reference_number": "DQ2026204090",
+        "reference_type": "DOT Defect ID",
+        "source_system": "NYC DOT",
+        "source": "District 26 office DOT submissions",
+        "location": "NORTH BASIN ROAD & CENTER BOULEVARD, QUEENS, NY",
+        "official_location": "NORTH BASIN ROAD & CENTER BOULEVARD",
+        "original_location": "n basin road center boulevard",
+        "reported": null,
+        "status": "Reported to DOT",
+        "office_tracked": true,
+        "city_council_district": "26",
+        "location_precision": "official-intersection-node",
+        "geocoding_method": "NYC Geoclient / Geosupport",
+        "geoclient_result_type": "intersection",
+        "geoclient_result_status": "EXACT_MATCH",
+        "geoclient_level": "0",
+        "geosupport_return_code": "00",
+        "lion_node_id": "9035425",
+        "segment_id": null,
+        "zip_code": "11101"
+      }
+    }
+  ]
+}
