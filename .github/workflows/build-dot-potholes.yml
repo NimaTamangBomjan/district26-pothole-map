@@ -1,6 +1,14 @@
 name: Build DOT Pothole GeoJSON
 
 on:
+  push:
+    branches:
+      - dot-office-geocoding
+    paths:
+      - "data/raw/dot-office-potholes.csv"
+      - "scripts/build-dot-potholes.py"
+      - ".github/workflows/build-dot-potholes.yml"
+
   workflow_dispatch:
 
 permissions:
