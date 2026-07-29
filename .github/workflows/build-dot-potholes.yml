@@ -1,0 +1,80 @@
+name: Build DOT Pothole GeoJSON
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-dot-geojson:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: dot-office-geocoding
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate verified DOT GeoJSON
+        run: python3 scripts/build-dot-potholes.py
+
+      - name: Validate generated GeoJSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data/processed/dot-office-potholes.geojson")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          assert data["type"] == "FeatureCollection"
+          assert isinstance(data["features"], list)
+
+          ids = []
+          for feature in data["features"]:
+              assert feature["geometry"]["type"] == "Point"
+              lon, lat = feature["geometry"]["coordinates"]
+              assert -74.1 < lon < -73.7
+              assert 40.5 < lat < 40.9
+              assert feature["properties"]["city_council_district"] == "26"
+              ids.append(feature["properties"]["dq_number"])
+
+          assert len(ids) == len(set(ids)), "Duplicate DQ numbers found"
+
+          print("Validated features:", len(ids))
+          PY
+
+      - name: Upload audit files
+        uses: actions/upload-artifact@v4
+        with:
+          name: district26-dot-geocoding-results
+          path: |
+            data/processed/dot-office-potholes.geojson
+            data/audits/dot-geocoding-review.csv
+            data/audits/dot-geocoding-hold.csv
+            data/audits/dot-geocoding-cache.json
+
+      - name: Commit generated results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/processed/dot-office-potholes.geojson \
+            data/audits/dot-geocoding-review.csv \
+            data/audits/dot-geocoding-hold.csv \
+            data/audits/dot-geocoding-cache.json
+
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Generate verified DOT pothole GeoJSON"
+          git push origin HEAD:dot-office-geocoding
