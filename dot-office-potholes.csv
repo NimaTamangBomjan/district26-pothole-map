@@ -1,0 +1,166 @@
+DQ Number,Issue,Map Address,Original Location,Date,Status,Address Confidence,Address Note
+DQ2026194056,Pothole,"QUEENS BOULEVARD & 39TH STREET, QUEENS, NY",Queens Boulevard/39th street,2026-07-13,,High,Direct intersection
+DQ2026195025,Pothole,"QUEENS BOULEVARD & 39TH PLACE, QUEENS, NY",Queens Boulevard/39th PL,2026-07-14,,High,Direct intersection
+DQ2026195026,Pothole,"QUEENS BOULEVARD & 40TH STREET, QUEENS, NY",Queens Boulevard/40th Street,2026-07-14,,High,Direct intersection
+DQ2026195035,Pothole,"QUEENS BOULEVARD & 39TH STREET, QUEENS, NY",Queens Boulevard 39th street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195037,Pothole,"QUEENS BOULEVARD & 50TH STREET, QUEENS, NY",Queens Boulevard 50th street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195038,Pothole,"QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",Queens Boulevard 52nd street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195039,Pothole,"QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",Queens Boulevard 52nd street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195041,Pothole,"QUEENS BOULEVARD & 55TH STREET, QUEENS, NY",Queens Boulevard 55th street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195042,Pothole,"QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",Queens Boulevard 52nd street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195043,Pothole,"QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",Queens Boulevard 52nd street,2026-07-14,,High,Intersection inferred from two street names
+DQ2026195045,Pothole,"QUEENS BOULEVARD & 69TH STREET, QUEENS, NY",69st and Queens Blvd intersection,2026-07-14,,High,Direct intersection
+DQ2026195048,Pothole,"THOMSON AVENUE & VAN DAM STREET, QUEENS, NY",Thomson Avenue/Van Dam Street,2026-07-14,,High,Direct intersection
+DQ2026195054,Pothole,"THOMSON AVENUE & VAN DAM STREET (CROSSWALK), QUEENS, NY",Thomson Avenue/Van Dam Street/ Crosswalk,2026-07-14,,High,Direct intersection
+DQ2026195060,Pothole,"THOMSON AVENUE BETWEEN 31ST STREET AND VAN DAM STREET, QUEENS, NY",Thomson Avenue From 31 street To Van Dam Street,2026-07-14,,Medium,Street segment; marker placed at first endpoint
+DQ2026201026,Pothole,"THOMSON AVENUE & 30TH PLACE, QUEENS, NY",Thomson Av/ 30th PL,2026-07-14,,High,Direct intersection
+DQ2026201029,Pothole,"THOMSON AVENUE & 30TH STREET, QUEENS, NY",Thomson Av/ 30th Street,2026-07-14,,High,Direct intersection
+DQ2026201031,Pothole,"THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",Thomson Avenue/44th Drive,2026-07-14,,High,Direct intersection
+DQ2026201042,Pothole,"QUEENS BOULEVARD & 64TH STREET, QUEENS, NY",Queens Blvd/ 64th St,2026-07-14,,High,Direct intersection
+DQ2026201043,Pothole,"QUEENS BOULEVARD & 65TH STREET, QUEENS, NY",Queens Blvd/ 65th St,2026-07-14,,High,Direct intersection
+DQ2026201049,Pothole,"QUEENS BOULEVARD & 45TH AVENUE, QUEENS, NY",Queens Blvd/ 45th Ave,2026-07-14,,High,Direct intersection
+DQ2026202033,Pothole,"ROOSEVELT AVENUE & 53RD STREET, QUEENS, NY",ROOSEVELT AVENUE/53 STREET,2026-07-14,,High,Direct intersection
+DQ2026202034,Pothole,"GREENPOINT AVENUE BETWEEN BRADLEY AVENUE AND STARR AVENUE, QUEENS, NY","GREENPOINT AVENUE in Queens, From BRADLEY AVENUE To STAR AVENUE",2026-07-14,,Medium,Street segment; marker placed at first endpoint
+DQ2026202035,Pothole,"GREENPOINT AVENUE & STARR AVENUE, QUEENS, NY",intersection of Greenpoint and Star Ave,2026-07-14,,High,Direct intersection
+DQ2026202036,Pothole,"GREENPOINT AVENUE & BRADLEY AVENUE, QUEENS, NY",GREENPOINT AVENUE/BRADLEY AVENUE,2026-07-14,,High,Direct intersection
+DQ2026202038,Pothole,"GREENPOINT AVENUE & 39TH PLACE, QUEENS, NY",Intersection of greenpoint ave and 39th pl,2026-07-14,,High,Direct intersection
+DQ2026202041,Pothole,"ROOSEVELT AVENUE & 50TH STREET, QUEENS, NY",Intersection of Roosevelt ave and 50th street,2026-07-14,,High,Direct intersection
+DQ2026202042,Pothole,"ROOSEVELT AVENUE BETWEEN 56TH STREET AND 57TH STREET, QUEENS, NY",ROOSEVELT AVENUE/56 STREET To 57 STREET,2026-07-14,,Medium,Street segment; marker placed at first endpoint
+DQ2026202043,Pothole,"ROOSEVELT AVENUE BETWEEN 52ND STREET AND 51ST STREET, QUEENS, NY","ROOSEVELT AVENUE in Queens, From 52 STREET To 51 STREET",2026-07-14,,Medium,Street segment; marker placed at first endpoint
+DQ2026202046,Pothole,"ROOSEVELT AVENUE & 61ST STREET, QUEENS, NY",ROOSEVELT AVENUE/61 STREET,2026-07-14,,High,Direct intersection
+DQ2026202047,Pothole,"ROOSEVELT AVENUE & 65TH STREET, QUEENS, NY",ROOSEVELT AVENUE/65 STREET,2026-07-14,,High,Direct intersection
+DQ2026202048,Pothole,"ROOSEVELT AVENUE & SKILLMAN AVENUE, QUEENS, NY",ROOSEVELT AVENUE/SKILLMAN AVENUE,2026-07-14,,High,Direct intersection
+DQ2026203037,Pothole,"THOMSON AVENUE BETWEEN 30TH PLACE AND 30TH STREET, QUEENS, NY",Thomson Avenue/ 30 PLACE - 30 STREET,2026-07-14,,Medium,Street range; marker placed at first endpoint
+DQ2026203038,Pothole,"THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",Thomson Avenue/44th Drive,2026-07-14,,High,Direct intersection
+DQ2026203041,Pothole,"THOMSON AVENUE & 44TH DRIVE, QUEENS, NY",Thomson Avenue/44th Drive,2026-07-14,,High,Direct intersection
+DQ2026201059,Pothole,"21ST STREET & 24TH DRIVE, QUEENS, NY",21st Street/24th Dr,2026-07-15,,High,Direct intersection
+DQ2026201062,Pothole,"21ST STREET & 29TH AVENUE, QUEENS, NY",21st Street/29th Ave,2026-07-15,,High,Direct intersection
+DQ2026201066,Pothole,"JACKSON AVENUE & 50TH AVENUE, QUEENS, NY",Jackson Avenue/50th Avenue,2026-07-15,,High,Direct intersection
+DQ2026201068,Pothole,"JACKSON AVENUE & 47TH ROAD, QUEENS, NY",Jackson Avenue/47th Road,2026-07-15,,High,Direct intersection
+DQ2026201069,Pothole,"JACKSON AVENUE & 45TH AVENUE, QUEENS, NY",Jackson Avenue/45th Avenue,2026-07-15,,High,Direct intersection
+DQ2026201072,Pothole,"JACKSON AVENUE & COURT SQUARE, QUEENS, NY",Jackson Avenue/ Court Square,2026-07-15,,High,Direct intersection
+DQ2026201073,Pothole,"JACKSON AVENUE & 44TH DRIVE, QUEENS, NY",Jackson Avenue/44th Drive,2026-07-15,,High,Direct intersection
+DQ2026202026,Pothole,"JACKSON AVENUE & DAVIS STREET, QUEENS, NY",Jackson Avenue/ Davis Street,2026-07-15,,High,Direct intersection
+DQ2026202027,Pothole,"JACKSON AVENUE & COURT SQUARE, QUEENS, NY",Jackson Avenue/ Court Square,2026-07-15,,High,Direct intersection
+DQ2026202031,Pothole,"JACKSON AVENUE & COURT SQUARE, QUEENS, NY",Jackson Avenue/ Court Square,2026-07-15,,High,Direct intersection
+DQ2026202045,Pothole,"JACKSON AVENUE & 49TH AVENUE, QUEENS, NY",Jackson Avenue/ 49th avenue,2026-07-15,,High,Direct intersection
+DQ2026202052,Pothole,"JACKSON AVENUE & QUEENS STREET, QUEENS, NY",Jackson Avenue/ Queens Street,2026-07-15,,High,Direct intersection
+DQ2026202071,Pothole,"21ST STREET BETWEEN 30TH DRIVE AND 31ST AVENUE, QUEENS, NY",21st Street/Between 30th Dr and 31st Ave,2026-07-15,,Medium,Between-block location; marker placed at first endpoint
+DQ2026202072,Pothole,"21ST STREET & 36TH AVENUE, QUEENS, NY",21st Street/36th Ave,2026-07-15,,High,Direct intersection
+DQ2026202073,Pothole,"21ST STREET & 37TH AVENUE, QUEENS, NY",21st Street/37th Ave,2026-07-15,,High,Direct intersection
+DQ2026202076,Pothole,"21ST STREET & 41ST AVENUE, QUEENS, NY",21st Street/41st Ave,2026-07-15,,High,Direct intersection
+DQ2026202078,Pothole,"21ST STREET & QUEENS PLAZA SOUTH, QUEENS, NY",21st Street/Queens Plaza S,2026-07-15,,High,Direct intersection
+DQ2026202079,Pothole,"21ST STREET BETWEEN 43RD AVENUE AND 44TH AVENUE, QUEENS, NY",21st Street/Between 43rd Ave and 44th Ave,2026-07-15,,Medium,Between-block location; marker placed at first endpoint
+DQ2026202080,Pothole,"21ST STREET & 44TH AVENUE, QUEENS, NY",21st Street/44th Ave,2026-07-15,,High,Direct intersection
+DQ2026202081,Pothole,"21ST STREET BETWEEN 44TH AVENUE AND 44TH ROAD, QUEENS, NY",21st Street/Between 44th Ave and 44th Rd,2026-07-15,,Medium,Between-block location; marker placed at first endpoint
+DQ2026202082,Pothole,"21ST STREET & 44TH ROAD, QUEENS, NY",21st Street/44th Rd,2026-07-15,,High,Direct intersection
+DQ2026202083,Pothole,"21ST STREET & 49TH AVENUE, QUEENS, NY",21st Street/49th Ave,2026-07-15,,High,Direct intersection
+DQ2026203050,Pothole,"JACKSON AVENUE & PURVES STREET, QUEENS, NY",Jackson Avenue/Purves Street,2026-07-15,,High,Direct intersection
+DQ2026203051,Pothole,"JACKSON AVENUE & QUEENS STREET, QUEENS, NY",Jackson Avenue/ Queens Stret,2026-07-15,,High,Direct intersection
+DQ2026202037,Pothole,"43RD AVENUE & 40TH STREET, QUEENS, NY",43rd ave 40th st,2026-07-20,,High,Intersection inferred from two street names
+DQ2026202039,Pothole,"43RD AVENUE & 39TH PLACE, QUEENS, NY",43rd ave 39th place,2026-07-20,,High,Intersection inferred from two street names
+DQ2026203039,Pothole,"43RD AVENUE & 44TH STREET, QUEENS, NY",43rd ave 44th street,2026-07-20,,High,Intersection inferred from two street names
+DQ2026204035,Pothole,"NORTHERN BOULEVARD & 61ST STREET, QUEENS, NY",Northern Boulevard and 61st street,2026-07-20,,High,Direct intersection
+DQ2026204037,Pothole,"NORTHERN BOULEVARD & 62ND STREET, QUEENS, NY",Northern Boulevard and 62nd,2026-07-20,,High,Direct intersection
+DQ2026204038,Pothole,"42ND STREET & NORTHERN BOULEVARD, QUEENS, NY",42nd street and northern,2026-07-20,,High,Direct intersection
+DQ2026204040,Pothole,"42ND STREET & NORTHERN BOULEVARD, QUEENS, NY",42nd street and northern,2026-07-20,,High,Direct intersection
+DQ2026204045,Pothole,"46TH STREET & NORTHERN BOULEVARD, QUEENS, NY",46th street and northern,2026-07-20,,High,Direct intersection
+DQ2026204047,Pothole,"NORTHERN BOULEVARD & 50TH STREET, QUEENS, NY",Northern Boulevard and 50th street,2026-07-20,,High,Direct intersection
+DQ2026204048,Pothole,"NORTHERN BOULEVARD & 51ST STREET, QUEENS, NY",Northern boulevard and 51st street,2026-07-20,,High,Direct intersection
+DQ2026204049,Pothole,"NORTHERN BOULEVARD & 57TH STREET, QUEENS, NY",Northern boulevard and 57th,2026-07-20,,High,Direct intersection
+DQ2026204050,Pothole,"NORTHERN BOULEVARD & 60TH STREET, QUEENS, NY",northern boulevard and 60th street,2026-07-20,,High,Direct intersection
+DQ2026204052,Pothole,"NORTHERN BOULEVARD & 61ST STREET, QUEENS, NY",Northern boulevard and 61st street,2026-07-20,,High,Direct intersection
+DQ2026204053,Pothole,"NORTHERN BOULEVARD & 62ND STREET, QUEENS, NY",Northern Boulevard and 62nd street,2026-07-20,,High,Direct intersection
+DQ2026204056,Pothole,"NORTHERN BOULEVARD UNDER THE BROOKLYN-QUEENS EXPRESSWAY, QUEENS, NY",Northern Boulevard under the brooklyn queens expressway,2026-07-20,,Medium,Underpass location; verify after import
+DQ2026204067,Pothole,"43RD ROAD & 10TH STREET, QUEENS, NY",43rd road 10th street,2026-07-23,,High,Intersection inferred from two street names
+DQ2026205028,Pothole,"39-08 52ND STREET, QUEENS, NY",39-08 52nd St,2026-07-24,Open,High,Street address
+DQ2026205032,Pothole,"58-09 39TH AVENUE, QUEENS, NY",58-09 39th Ave,2026-07-24,Open,High,Street address
+DQ2026205033,Pothole,"42-21 68TH STREET, QUEENS, NY",42-21 68th St,2026-07-24,Open,High,Street address
+DQ2026205036,Pothole,"61-10 QUEENS BOULEVARD, QUEENS, NY",61-10 Queens Blvd,2026-07-24,Open,High,Street address
+DQ2026205037,Pothole,"61-16 QUEENS BOULEVARD, QUEENS, NY",61-16 Queens Blvd,2026-07-24,Open,High,Street address
+DQ2026205040,Pothole,"58-25 LAUREL HILL BOULEVARD, QUEENS, NY",58-25 Laurel Hl Blvd,2026-07-24,Open,High,Street address
+DQ2026205042,Pothole,"46-01 58TH STREET, QUEENS, NY",46-01 58th St,2026-07-24,Open,High,Street address
+DQ2026205044,Pothole,"53-98 QUEENS BOULEVARD, QUEENS, NY",53-98 Queens Blvd,2026-07-24,Open,High,Street address
+DQ2026205047,Pothole,"QUEENS BOULEVARD & 52ND STREET, QUEENS, NY",Queens Blvd & 52nd St,2026-07-24,Open,High,Direct intersection
+DQ2026205048,Pothole,"50-24 QUEENS BOULEVARD, QUEENS, NY",50-24 Queens Blvd,2026-07-24,Open,High,Street address
+DQ2026205049,Pothole,"51-82 48TH STREET, QUEENS, NY",51-82 48th St,2026-07-24,Open,High,Street address
+DQ2026205050,Pothole,"53-02 46TH STREET, QUEENS, NY",53-02 46th St,2026-07-24,Open,High,Street address
+DQ2026205051,Pothole,"54-12 48TH STREET, QUEENS, NY 11378","54-12 48th St, Maspeth, NY 11378",2026-07-24,Open,High,Full street address
+DQ2026205052,Pothole,"48-16 54TH AVENUE, QUEENS, NY",48-16 54th Ave,2026-07-24,Open,High,Street address
+DQ2026205053,Pothole,"54-20 50TH STREET, QUEENS, NY",54-20 50th St,2026-07-24,Open,High,Street address
+DQ2026205055,Pothole,"41-13 50TH STREET, QUEENS, NY",41-13 50th St,2026-07-24,Open,High,Street address
+DQ2026205056,Pothole,"54-65 48TH STREET, QUEENS, NY",54-65 48th St,2026-07-24,Open,High,Street address
+DQ2026205057,Pothole,"56-05 48TH STREET, QUEENS, NY",56-05 48th St,2026-07-24,Open,High,Street address
+DQ2026205058,Pothole,"56TH ROAD & 48TH STREET, QUEENS, NY",56th Rd & 48th St,2026-07-24,Open,High,Direct intersection
+DQ2026205059,Pothole,"44-11 56TH ROAD, QUEENS, NY 11378","44-11 56th Rd, Maspeth, NY 11378",2026-07-24,Open,High,Full street address
+DQ2026205062,Pothole,"55-51 43RD STREET, QUEENS, NY",55-51 43rd St,2026-07-24,Open,High,Street address
+DQ2026205067,Pothole,"43-40 57TH AVENUE, QUEENS, NY 11378","43-40 57th Ave, Maspeth, NY 11378",2026-07-24,Open,High,Full street address
+DQ2026208015,Pothole,"54-30 48TH STREET, QUEENS, NY 11378","54-30 48th St, Maspeth, NY 11378",2026-07-24,Open,High,Full street address
+DQ2026208016,Pothole,"41-08 50TH AVENUE, QUEENS, NY 11104","41-08 50th Ave, Long Island City, NY 11104",2026-07-24,Open,High,Full street address
+DQ2026208017,Pothole,"39-18 50TH AVENUE, QUEENS, NY 11104","39-18 50th Ave, Long Island City, NY 11104",2026-07-24,Open,High,Full street address
+DQ2026208018,Pothole,"8 39TH STREET, QUEENS, NY 11104","8 39th St, Long Island City, NY 11104",2026-07-24,Open,High,Full street address
+DQ2026208020,Pothole,"QUEENS BOULEVARD & 44TH STREET, QUEENS, NY",Queens Blvd & 44th St,2026-07-24,Open,High,Direct intersection
+DQ2026208023,Pothole,"QUEENS BOULEVARD & 48TH STREET, QUEENS, NY",Queens Blvd & 48th St,2026-07-24,Open,High,Direct intersection
+DQ2026208024,Pothole,"51-31 BROADWAY, QUEENS, NY 11377","51-31 Broadway, Woodside, NY 11377",2026-07-24,Open,High,Full street address
+DQ2026208026,Pothole,"37TH AVENUE & 48TH STREET, QUEENS, NY",37th Ave & 48th St,2026-07-24,Open,High,Direct intersection
+DQ2026208048,Pothole,"46TH STREET & NORTHERN BOULEVARD, QUEENS, NY",46th St & Northern Blvd,2026-07-24,Open,High,Direct intersection
+DQ2026208049,Pothole,"27-26 QUEENS PLAZA SOUTH, QUEENS, NY",27-26 Queens Plaza S,2026-07-24,Open,High,Street address
+DQ2026208050,Pothole,"42-12 10TH STREET, QUEENS, NY",42-12 10th St,2026-07-24,Open,High,Street address
+DQ2026208051,Pothole,"31-32 36TH AVENUE, QUEENS, NY",31-32 36th Ave,2026-07-24,Open,High,Street address
+DQ2026208053,Pothole,"52-37 2ND STREET, QUEENS, NY",52-37 2nd St,2026-07-24,Open,High,Street address
+DQ2026208056,Pothole,"CENTER BOULEVARD & 47TH ROAD, QUEENS, NY",Center Blvd & 47th Rd,2026-07-24,Open,High,Direct intersection
+DQ2026208057,Pothole,"33-08 QUEENS BOULEVARD, QUEENS, NY 11101","33-08 Queens Blvd, Long Island City, NY 11101",2026-07-24,Open,High,Full street address
+DQ2026208059,Pothole,"BIG BUSH PLAYGROUND, QUEENS, NY",Big Bush Playground,2026-07-24,Open,Medium,Place-name marker; verify after import
+DQ2026208060,Pothole,"NORTHERN BOULEVARD & 60TH STREET, QUEENS, NY",Northern Blvd/60 St,2026-07-24,Open,High,Direct intersection
+DQ2026208064,Pothole,"48-28 59TH PLACE, QUEENS, NY",48-28 59th Pl,2026-07-24,Open,High,Street address
+DQ2026208065,Pothole,"27-00 QUEENS PLAZA SOUTH, QUEENS, NY 11101","27-00 Queens Plaza S, Long Island City, NY 11101",2026-07-24,Open,High,Full street address
+DQ2026208067,Pothole,"37TH AVENUE & 65TH STREET, QUEENS, NY",37th Ave & 65th St,2026-07-24,Open,High,Direct intersection
+DQ2026208070,Pothole,"39TH AVENUE & 65TH STREET, QUEENS, NY",39th Ave & 65th St,2026-07-24,Open,High,Direct intersection
+DQ2026208071,Pothole,"39TH AVENUE & 62ND STREET, QUEENS, NY",39th Ave & 62nd St,2026-07-24,Open,High,Direct intersection
+DQ2026208072,Pothole,"37-04 62ND STREET, QUEENS, NY 11377","37-04 62nd St, Flushing, NY 11377",2026-07-24,Open,High,Full street address
+DQ2026208073,Pothole,"39TH AVENUE & 62ND STREET, QUEENS, NY",39th Ave & 62nd St,2026-07-24,Open,High,Direct intersection
+DQ2026208074,Pothole,"39TH AVENUE & 58TH STREET, QUEENS, NY",39th Ave & 58th St,2026-07-24,Open,High,Direct intersection
+DQ2026208075,Pothole,"49-13 ROOSEVELT AVENUE, QUEENS, NY 11104","49-13 Roosevelt Ave, Sunnyside, NY 11104",2026-07-24,Open,High,Full street address
+DQ2026208076,Pothole,"41-38 48TH STREET, QUEENS, NY 11104","41-38 48th St, Sunnyside, NY 11104",2026-07-24,Open,High,Full street address
+DQ2026208079,Pothole,"48-02 QUEENS BOULEVARD, QUEENS, NY 11377","48-02 Queens Blvd, Woodside, NY 11377",2026-07-24,Open,High,Full street address
+DQ2026208080,Pothole,"62-02 QUEENS BOULEVARD, QUEENS, NY",62-02 Queens Blvd,2026-07-24,Open,High,Street address
+DQ2026208082,Pothole,"48-34 63RD STREET, QUEENS, NY 11377","48-34 63rd St, Flushing, NY 11377",2026-07-24,Open,High,Full street address
+DQ2026208083,Pothole,"48-23 63RD STREET, QUEENS, NY",48-23 63rd St,2026-07-24,Open,High,Street address
+DQ2026208084,Pothole,"45-41 32ND PLACE, QUEENS, NY",45-41 32nd Pl,2026-07-24,Open,High,Street address
+DQ2026208085,Pothole,"33-08 QUEENS BOULEVARD, QUEENS, NY 11101","33-08 Queens Blvd, Long Island City, NY 11101",2026-07-24,Open,High,Full street address
+DQ2026208086,Pothole,"QUEENS BOULEVARD & 33RD STREET, QUEENS, NY",Queens Blvd & 33rd St,2026-07-24,Open,High,Direct intersection
+DQ2026208087,Pothole,"38-06 31ST STREET, QUEENS, NY 11101","38-06 31st St, Long Island City, NY 11101",2026-07-24,Open,High,Full street address
+DQ2026195044,Pothole,"QUEENS BOULEVARD & 53RD STREET, QUEENS, NY",Queens Boukevard 53rd street,,,High,Intersection inferred from two street names
+DQ2026195047,Pothole,"QUEENS BOULEVARD & 54TH STREET, QUEENS, NY",Queens Boulevard 54th street,,,High,Intersection inferred from two street names
+DQ2026195050,Pothole,"QUEENS BOULEVARD & 55TH STREET, QUEENS, NY",Queens Boulevard 55th street,,,High,Intersection inferred from two street names
+DQ2026195052,Pothole,"QUEENS BOULEVARD & 57TH STREET, QUEENS, NY",Queens Bouoevard 57th street,,,High,Intersection inferred from two street names
+DQ2026195053,Pothole,"QUEENS BOULEVARD & 58TH STREET, QUEENS, NY",Queens Boulevard 58th street,,,High,Intersection inferred from two street names
+DQ2026195055,Pothole,"QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",Queens Boulevard 60th street,,,High,Intersection inferred from two street names
+DQ2026195056,Pothole,"QUEENS BOULEVARD & 61ST STREET, QUEENS, NY",Queens Boulevard 61st street,,,High,Intersection inferred from two street names
+DQ2026196051,Pothole,"QUEENS BOULEVARD & 63RD STREET, QUEENS, NY",Queens Boulevard 63rd,,,High,Intersection inferred from two street names
+DQ2026196053,Pothole,"QUEENS BOULEVARD & 63RD STREET, QUEENS, NY",Queens boulevard 63rd street,,,High,Intersection inferred from two street names
+DQ2026196054,Pothole,"QUEENS BOULEVARD & 65TH STREET, QUEENS, NY",Queens boulevard 65th street,,,High,Intersection inferred from two street names
+DQ2026196055,Pothole,"QUEENS BOULEVARD & 69TH STREET, QUEENS, NY",Queens boulevard 69th street,,,High,Intersection inferred from two street names
+DQ2026196056,Pothole,"QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",Queens Boulevard 60th street,,,High,Intersection inferred from two street names
+DQ2026196058,Pothole,"QUEENS BOULEVARD & 60TH STREET, QUEENS, NY",Queens Boulevard 60th street,,,High,Intersection inferred from two street names
+DQ2026201036,Pothole,"QUEENS BOULEVARD, QUEENS, NY",Queens Boulevard,,,Low,Street only; no cross street provided
+DQ2026203045,Pothole,"43RD AVENUE & 51ST STREET, QUEENS, NY",43rd ave 51st street,,,High,Intersection inferred from two street names
+DQ2026203046,Pothole,"43RD AVENUE & 51ST STREET, QUEENS, NY",43rd ave 51st st,,,High,Intersection inferred from two street names
+DQ2026203047,Pothole,"43RD AVENUE & 50TH STREET, QUEENS, NY",43rd ave 50th st,,,High,Intersection inferred from two street names
+DQ2026203048,Pothole,,,,,,No location was provided in the workbook.
+DQ2026204068,Pothole,"43RD ROAD & 10TH STREET, QUEENS, NY",43rd road 10th street,,,High,Intersection inferred from two street names
+DQ2026204070,Pothole,"44TH AVENUE & 10TH STREET, QUEENS, NY",44thave 10th street,,,High,Intersection inferred from two street names
+DQ2026204071,Pothole,"46TH AVENUE & CENTER BOULEVARD, QUEENS, NY",46th ave center boulevard,,,High,Intersection inferred from two street names
+DQ2026204077,Pothole,"47TH AVENUE & 32ND PLACE, QUEENS, NY",47th ave 32nd place,,,High,Intersection inferred from two street names
+DQ2026204078,Pothole,"47TH AVENUE & CENTER BOULEVARD, QUEENS, NY",47th ave center boulevard,,,High,Intersection inferred from two street names
+DQ2026204079,Pothole,"47TH AVENUE & 5TH STREET, QUEENS, NY",47th avenue 5th street,,,High,Intersection inferred from two street names
+DQ2026204080,Pothole,"47TH ROAD & CENTER BOULEVARD, QUEENS, NY",47th road center boulevard,,,High,Intersection inferred from two street names
+DQ2026204081,Pothole,"47TH ROAD & CENTER BOULEVARD, QUEENS, NY",47th road center boulevard,,,High,Intersection inferred from two street names
+DQ2026204082,Pothole,"48TH AVENUE & 32ND PLACE, QUEENS, NY",48th avenue 32nd place,,,High,Intersection inferred from two street names
+DQ2026204083,Pothole,"48TH AVENUE & CENTER BOULEVARD, QUEENS, NY",48th avenue center boulevard,,,High,Intersection inferred from two street names
+DQ2026204084,Pothole,"COURT SQUARE & 44TH DRIVE, QUEENS, NY",courth square 44th drive,,,High,Intersection inferred from two street names
+DQ2026204085,Pothole,"HUNTERS POINT AVENUE & 32ND PLACE, QUEENS, NY",hunters point ave 32nd place,,,High,Intersection inferred from two street names
+DQ2026204086,Pothole,"JACKSON AVENUE & COURT SQUARE, QUEENS, NY",jackson ave court square,,,High,Intersection inferred from two street names
+DQ2026204087,Pothole,"JACKSON AVENUE & COURT SQUARE, QUEENS, NY",jackson ave court square,,,High,Intersection inferred from two street names
+DQ2026204089,Pothole,"NORTH BASIN ROAD & 5TH STREET, QUEENS, NY",n basin road 5th street,,,High,Intersection inferred from two street names
+DQ2026204090,Pothole,"NORTH BASIN ROAD & CENTER BOULEVARD, QUEENS, NY",n basin road center boulevard,,,High,Intersection inferred from two street names
