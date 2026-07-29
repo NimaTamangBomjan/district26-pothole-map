@@ -59,6 +59,12 @@ export const POPUP_FIELDS: Record<string, PopupField[]> = {
     { key: 'office_added_date', label: 'Office Added Date', hideWhenEmpty: true },
     { key: 'notes_public', label: 'Notes', hideWhenEmpty: true }
   ],
+    dot_potholes: [
+    { key: 'location', label: 'Location', hideWhenEmpty: true },
+    { key: 'status', label: 'Status' },
+    { key: 'reported', label: 'Reported', hideWhenEmpty: true },
+    { key: 'dq_number', label: 'DOT Defect ID' }
+  ],
   cso: [
     { key: 'Waterbody', label: 'Waterbody' },
     { key: 'Waterbod_1', label: 'Waterbody (Secondary)' }
