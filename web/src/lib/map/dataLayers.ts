@@ -136,41 +136,62 @@ function addOne(map: Map, l: LayerDef): void {
     if (!map.getSource(sid)) map.addSource(sid, { type: 'geojson', data: freshDataUrl(l.file) });
   }
 
-  if (l.id === 'potholes') {
+    if (l.id === 'potholes' || l.id === 'dot_potholes') {
     map.addLayer({
       id: layerId(l),
       type: 'circle',
       source: sid,
       ...(l.sourceLayer ? { 'source-layer': l.sourceLayer } : {}),
+      ...(l.id === 'dot_potholes'
+        ? {
+            filter: [
+              '==',
+              ['get', 'geoclient_result_status'],
+              'EXACT_MATCH'
+            ]
+          }
+        : {}),
       layout: { visibility: 'none' },
       paint: {
         'circle-radius': [
           'interpolate',
           ['linear'],
           ['zoom'],
-          10, [
+          10,
+          [
             'match',
             ['get', 'priority'],
-            'High', 5,
-            'Low', 3.5,
+            'High',
+            5,
+            'Low',
+            3.5,
             4.25
           ],
-          16, [
+          16,
+          [
             'match',
             ['get', 'priority'],
-            'High', 8,
-            'Low', 5.5,
+            'High',
+            8,
+            'Low',
+            5.5,
             6.5
           ]
         ],
-        'circle-color': [
-          'match',
-          ['get', 'status'],
-          ['Open', 'Reported'], '#C94C4C',
-          'In Progress', '#D9A441',
-          ['Closed', 'Completed', 'Repaired'], '#4F9D69',
-          '#6B7280'
-        ],
+        'circle-color':
+          l.id === 'dot_potholes'
+            ? '#2563EB'
+            : [
+                'match',
+                ['get', 'status'],
+                ['Open', 'Reported'],
+                '#C94C4C',
+                'In Progress',
+                '#D9A441',
+                ['Closed', 'Completed', 'Repaired'],
+                '#4F9D69',
+                '#6B7280'
+              ],
         'circle-opacity': 0.86,
         'circle-stroke-color': '#FFFFFF',
         'circle-stroke-width': 1.25,
